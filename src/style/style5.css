@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+#esquerda{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color:#0096bb;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+
+    
+}
+#direita{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    background-color: #51d1f1;
+}
+
+iframe{
+    width: 90%;
+    height: 70vh;
+}
+p{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    color: white;
+    padding-left:2em;
+    padding-right: 2em;
+}
+h3{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+    padding-left:2em;
+    padding-right: 2em;
+}
+#cor{
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(180deg,#0096bb, #51d1f1);
+
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+     }
+ }
+/* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width: 600px) and (max-width:1024px){
+   
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+    h3{
+        font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+    }
+    #cor{
+        width: 90%;
+        height: 40vh;
+    }
+    iframe{
+        width: 80%;
+        height:40vh;
+    }
+}
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (min-width: 280px) and (max-width: 590px) {
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+    
+     p{
+        font-size: 10px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    #cor{
+        width: 95%;
+        height: 45vh;
+    }
+    iframe{
+        width: 80%;
+        height:40vh;
+    }
+}
