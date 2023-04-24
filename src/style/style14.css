@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+#esquerda{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    background-color:#c7edf6;
+}
+#direita{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    background-color:#1684a0;
+    animation-fill-mode: backwards;
+   
+}
+#cor{
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: column;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    background-color:#51d1f1;
+    animation-fill-mode: backwards;
+}
+#esquerda img{
+    width: 70%;
+    height: 50vh;
+    border-radius: 10px;
+    border: 3px solid #1684a0;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+     }
+ }
+ iframe{
+    width: 90%;
+    height: 70vh;
+ }
+
+ p{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    color: black;
+    padding-left:1em;
+    padding-right:1em;
+ 
+ }
+ 
+/* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width: 600px) and (max-width:996px){
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width:100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width:100%;
+        height: 50vh;
+    }
+
+    #cor{
+        width: 95%;
+        height: 45vh;
+    }
+     p {
+        font-size: 14px;
+     }
+     #esquerda img{
+        width: 40%;
+        height: 25vh;
+     }
+}
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (min-width: 280px) and (max-width: 590px) {
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+    #cor{
+        width: 95%;
+        height: 45vh;
+    }
+     p {
+        font-size: 9px;
+     }
+     #esquerda img{
+        width: 60%;
+        height: 17vh;
+     }
+     
+}
