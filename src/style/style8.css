@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+#esquerda{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    align-items: center;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+
+    background-image: linear-gradient(180deg,#0096bb,#51d1f1);
+}
+#direita{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    background-color:#0096bb;
+    animation-fill-mode: backwards;
+   
+}
+.click{
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+     }
+ }
+
+ p{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    color: white;
+    padding-left:1em;
+    padding-right:1em;
+ 
+ }
+ h1{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    color: white;
+    padding-left:1em;
+    padding-right:1em;
+ 
+ }
+ #boneco{
+    width: 50%;
+    height: 40vh;
+ }
+
+ #seta{
+    width: 50%;
+    height:20vh;
+    rotate: 15deg;
+ }
+
+ #minha-div{
+    display: none;
+ }
