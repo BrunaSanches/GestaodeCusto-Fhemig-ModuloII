@@ -125,8 +125,8 @@
 			<file href="src/style1.js"/>
 		</resource>
 		
-		<resource identifier="RES_1" type="webcontent" adlcp:scormtype="sco" href="src/index.html">
-		   <file href="src/index.html"/>
+		<resource identifier="RES_1" type="webcontent" adlcp:scormtype="sco" href="src/pagina1.html">
+		   <file href="src/pagina1.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 		
