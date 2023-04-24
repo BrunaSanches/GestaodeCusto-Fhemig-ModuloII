@@ -19,8 +19,7 @@
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: backwards;
-
-    
+    background-color:#0096bb;
 }
 #direita{
     width: 50%;
@@ -31,7 +30,7 @@
     flex-direction: column;
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
-    background-color:#0096bb;
+    background-image: linear-gradient(180deg,#0096bb,#51d1f1);
     animation-fill-mode: backwards;
    
 }
@@ -44,7 +43,7 @@ h2{
     padding:1em;
 }
 table{
-  background-color: #1684a0;
+    background-color: #1684a0;
     width: 95%;
     height:50vh;
     border: 1px solid #51d1f1;
@@ -75,7 +74,7 @@ td{
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
-    color: black;
+    color: white;
     padding-left:1em;
     padding-right:1em;
  
