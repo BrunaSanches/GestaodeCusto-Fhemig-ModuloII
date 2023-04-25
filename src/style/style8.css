@@ -13,13 +13,12 @@
     width: 50%;
     height: 100vh;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
     flex-direction: column;
     align-items: center;
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: backwards;
-
     background-image: linear-gradient(180deg,#0096bb,#51d1f1);
 }
 #direita{
@@ -31,16 +30,18 @@
     flex-direction: column;
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
-    background-color:#0096bb;
     animation-fill-mode: backwards;
-   
+    background-color: #51d1f1;
 }
 .click{
-    width: 50%;
-    height: 70vh;
+    width: 100%;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
 }
 @keyframes fadeInAnimation {
     0% {
@@ -70,16 +71,136 @@
  
  }
  #boneco{
-    width: 50%;
-    height: 40vh;
+    width: 40%;
+    height: 50vh;
  }
 
- #seta{
-    width: 50%;
-    height:20vh;
-    rotate: 15deg;
- }
+ @keyframes text-pisca {
+	0% { opacity: 0; }
+	50% { opacity: 0.5; }
+	100% { opacity: 1; }
+}
+.text-pisca {
+	color: rgb(16, 22, 34);
+	-webkit-text-stroke:1px  rgb(6, 67, 136);
+   text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 20px;
 
- #minha-div{
+	-webkit-animation: text-pisca .7s linear infinite;
+	-moz-animation: text-pisca .7s linear infinite;
+	-ms-animation: text-pisca .7s linear infinite;
+	-o-animation: text-pisca .7s linear infinite;
+	animation: text-pisca .7s linear infinite;
+}
+
+
+ #cor{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#0096bb;
+    flex-direction: column;
+
+ }
+ #texto1{
     display: none;
  }
+ .check{
+    display: none;
+ }
+ #checkbox1:checked + #texto1{
+    display: block;
+ }
+ label{
+   width:40%;
+   height: 50vh;
+   display: flex;
+    justify-content: center;
+    align-items: start;
+ }
+ label img{
+   width:50%;
+   height: auto;
+ }
+
+ @keyframes img {
+	0% { rotate: 0; }
+	50% { rotate: 10deg; }
+	100% { rotate: -10deg; }
+}
+#img{
+	display: inline-block;
+	text-decoration: none;
+	-webkit-animation: img .9s linear infinite;
+	-moz-animation: img  .9s linear infinite;
+	-ms-animation: img  .9s linear infinite;
+	-o-animation: img  .9s linear infinite;
+	animation: img .9s linear infinite;
+}
+#img:hover{
+   transform: translateX(10px) scale(1.2);
+}
+
+
+
+/* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width: 768px) and (max-width: 996px){
+ 
+   p{
+       font-size: 18px;
+    }
+  
+    h1{
+       font-size: 22px;
+    }
+    .text-pisca{
+      font-size: 18px;
+    }
+  
+}
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (max-width: 768px) {
+   #home{
+       flex-direction: column;
+   }
+   #esquerda{
+       width: 100%;
+       height: 50vh;
+       
+   }
+   #direita{
+       width: 100%;
+       height: 50vh;
+   }
+    p{
+       font-size: 12px;
+
+       
+    }
+    #cor{
+      width: 90%;
+      height: 40vh;
+    }
+    .click{
+      width: 100%;
+      height: 35vh;
+    }
+    label img{
+      width: 35%;
+      height: 10vh;
+    }
+    label{
+      width: 50%;
+      height: 35vh;
+      align-items: center;
+    }
+    #boneco{
+      width: 40%;
+      height: 35vh;
+    }
+
+}
