@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 
-
+    font-family: 'Open Sans', sans-serif;
 }
 #home{
     width: 100%;
@@ -18,7 +18,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-image: linear-gradient(45deg,#0096bb,#51d1f1);
+    background-image: linear-gradient(180deg,#0096bb,#51d1f1);
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: backwards;
@@ -49,22 +49,13 @@
     font-size:16px;
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
-    color: black;
+    color: white;
     padding-right:2em;
     padding-left: 2em;
   
 
 }
-h1{
-    font-size: 20px;
-    font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    color: black;
-    font-weight: bold;
-    padding-bottom: 0.5em;
-    
-}
+
 @keyframes text-pisca {
 	0% { opacity: 0; }
 	50% { opacity: 0.5; }
@@ -103,33 +94,48 @@ h1{
         display: none;
     }
     #ckb1:checked ~ #texto-1{
-        display: block;
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        
     }
-    #ckb2:checked ~ #texto-2{
-        display: block;
-    }
+   
     label{
-        padding-left: 0.5em;
-        padding-right: 0.5em;
-        width:70%;
+    
+        width:100%;
+        background-color:rgb(6, 67, 136);
+        border: 3px solid#51d1f1;
+        border-radius: 10px;
+        padding: 1em;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
    
     }
+    label:hover{
+        background-color:#1684a0;
+        border-color:#51d1f1;
+    }
     .texto-resposta{
-        font-family: 'Open Sans', sans-serif;
+
         position: relative;
         text-align: justify;
         font-size: 13px;
-        color: rgb(5, 0, 0);
+        color: white;
         padding-left: 1em;
         padding-right: 1em;
-        background-color: #51d1f1;
-        border: 3px solid white;
+        background-color:rgb(6, 67, 136);;
+        border: 3px solid#51d1f1;
         border-radius: 10px;
+       
     }
     .seta{
         width: 30px;
         height: auto;
         rotate: 90deg;
+        padding-bottom:1em;
     }
  
     #clica-1{
@@ -141,10 +147,4 @@ h1{
         align-items:center;
        
        
-    }
-    #texto-1{
-        justify-content:center;
-        align-items:center;
-        
-        height: 50vh;
     }
