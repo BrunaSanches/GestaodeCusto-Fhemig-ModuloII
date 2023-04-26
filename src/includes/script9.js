@@ -13,7 +13,7 @@ const reiniciar = document.getElementById('reiniciar');
       botaoCorreto.style.backgroundColor = 'green';
 
     } else {
-      alert('Tente novamente.');
+      alert('Tente novamente!');
     }
   }
   
