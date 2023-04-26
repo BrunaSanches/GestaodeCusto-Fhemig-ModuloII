@@ -28,7 +28,7 @@
     width: 50%;
     height: 100vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
     animation: fadeInAnimation ease 2s;
@@ -45,11 +45,21 @@
         opacity: 1;
      }
  }
- p{
+ #esquerda p{
     font-size:16px;
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
     color: white;
+    padding-right:2em;
+    padding-left: 2em;
+  
+
+}
+#direita p{
+    font-size:16px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    color: black;
     padding-right:2em;
     padding-left: 2em;
   
@@ -81,10 +91,73 @@
     justify-content: center;
    flex-direction: column;
 }
+.questao{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.questao button{
+    width:85%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:rgb(6, 67, 136);
+    border: 3px solid#51d1f1;
+    border-radius: 10px;
+    padding: 0.5em;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+#corrigir{
+    width:30%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:rgb(6, 67, 136);
+    border: 3px solid#51d1f1;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 0.5em;
+}
+#reiniciar{
+    width:30%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:rgb(6, 67, 136);
+    border: 3px solid#51d1f1;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 0.5em;
+}
+
+button:hover{
+    background-color:#1684a0;
+    border-color:#51d1f1;
+    transform: translateX(10px) scale(1.2);
+   
+}
+
+/* .correto {
+    background-color: green;
+    color: white;
+  }
+.incorreto{
+    background-color: red;
+    color: white;
+} */
 /* CLIQUE */
 #texto{
     display: flex;
-
+    width:30%;
     }
     .hidden{
         display: none;
@@ -99,12 +172,17 @@
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
-        
+        animation: fadeInAnimation ease 2s;
+        animation-iteration-count: 1;
+        animation-fill-mode: backwards;
     }
    
     label{
     
         width:100%;
+        display: flex;
+        justify-content:center;
+        align-items: center;
         background-color:rgb(6, 67, 136);
         border: 3px solid#51d1f1;
         border-radius: 10px;
@@ -117,6 +195,8 @@
     label:hover{
         background-color:#1684a0;
         border-color:#51d1f1;
+        transform: translateX(10px) scale(1.2);
+       
     }
     .texto-resposta{
 
@@ -126,13 +206,14 @@
         color: white;
         padding-left: 1em;
         padding-right: 1em;
-        background-color:rgb(6, 67, 136);;
+        background-color:rgb(6, 67, 136);
         border: 3px solid#51d1f1;
         border-radius: 10px;
+        font-weight: 500;
        
     }
     .seta{
-        width: 30px;
+        width:40px;
         height: auto;
         rotate: 90deg;
         padding-bottom:1em;
@@ -148,3 +229,96 @@
        
        
     }
+    h3{
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: justify;
+        color: rgb(6, 67, 136);
+        padding-left:1em;
+        padding-right:1em;
+     
+     }
+
+/* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width: 768px) and (max-width: 996px){
+ 
+    #esquerda p{
+        font-size: 12px;
+     }
+     #direita p{
+        font-size: 13px;
+     }
+   
+     h3{
+        font-size: 18px;
+     }
+     .questao button{
+        font-size: 11px;
+     }
+     #reiniciar{
+        font-size: 11px;
+     }
+     #corrigir{
+        font-size: 11px;
+     }
+     label{
+        font-size: 13px;
+     }
+     .questao{
+        width: 90%;
+        height: 40vh;
+     } 
+     .text-pisca{
+        font-size: 13px;
+     }
+     
+   
+ }
+ /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+ @media screen and (max-width: 768px) {
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+    #esquerda p{
+        font-size: 9px;
+     }
+     #direita p{
+        font-size: 8px;
+     }
+     .text-pisca{
+        font-size: 9px;
+     }
+     
+     h3{
+        font-size: 13px;
+     }
+     .questao button{
+        font-size:8px;
+     }
+     #reiniciar{
+        font-size: 8px;
+     }
+     #corrigir{
+        font-size: 8px;
+     }
+     label{
+        font-size: 10px;
+     }
+     .questao{
+        width: 90%;
+        height: 30vh;
+     }
+    .seta{
+        width: 25px;
+        height: auto;
+     }
+}
