@@ -83,17 +83,16 @@ p{
     }
    
     p{
-        font-size: 15px;
+        font-size: 14px;
     }
     h3{
-        font-size: 20px;
+        font-size:15px;
     }
-   
    
     iframe{
-        width: 80%;
-        height:40vh;
-    }
+        width: 70%;
+        height: 40vh;
+     }
 }
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
 @media screen and (min-width: 280px) and (max-width: 590px) {
@@ -115,11 +114,11 @@ p{
     }
     
     h3{
-        font-size: 15px;
+        font-size: 12px;
     }
    
     iframe{
-        width: 80%;
-        height:40vh;
-    }
+        width: 70%;
+        height: 40vh;
+     }
 }

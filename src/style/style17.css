@@ -96,7 +96,7 @@ td{
     }
    
      h2{
-        font-size: 18px;
+        font-size: 15px;
      }
      table{
         width: 90%;
@@ -106,9 +106,12 @@ td{
         font-size: 12px;
      }
     p {
-        font-size: 15px;
+        font-size: 14px;
      }
- 
+     iframe{
+        width: 70%;
+        height:38vh;
+     }
 }
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
 @media screen and (min-width: 280px) and (max-width: 590px) {
@@ -137,5 +140,8 @@ td{
      p {
         font-size: 10px;
      }
-     
+     iframe{
+        width: 70%;
+        height:38vh;
+     }
 }
