@@ -58,7 +58,7 @@
 #direita p{
     font-size:16px;
     font-family: 'Open Sans', sans-serif;
-    text-align: justify;
+    text-align: center;
     color: black;
     padding-right:2em;
     padding-left: 2em;
@@ -149,7 +149,7 @@ p b{
 button:hover{
     background-color:#1684a0;
     border-color:#51d1f1;
-    transform: translateX(10px) scale(1.2);
+    transform: translatey(4px) scale(0.9);
    
 }
 

@@ -8,12 +8,15 @@ const reiniciar = document.getElementById('reiniciar');
   
   function verificarBotao() {
     const botaoCorreto = document.querySelector('button:last-child');
+
+    
     if (botaoCorreto.classList.contains('selecionado')) {
       alert('Você acertou! Parabéns!');
       botaoCorreto.style.backgroundColor = 'green';
 
     } else {
       alert('Tente novamente!');
+      location.reload();
     }
   }
   
@@ -23,6 +26,8 @@ const reiniciar = document.getElementById('reiniciar');
     botao.addEventListener('click', () => {
       botoes.forEach(b => b.classList.remove('selecionado'));
       botao.classList.add('selecionado');
+      
+      botao.style.backgroundColor = '#1684a0';
     });
   });
   
