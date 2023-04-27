@@ -47,8 +47,8 @@
     animation-fill-mode: backwards;
 }
 #esquerda img{
-    width: 70%;
-    height: 50vh;
+    width: 60%;
+    height: 40vh;
     border-radius: 10px;
     border: 3px solid #1684a0;
 }
@@ -61,13 +61,10 @@
         opacity: 1;
      }
  }
- iframe{
-    width: 90%;
-    height: 70vh;
- }
+
 
  p{
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
     color: black;
@@ -77,7 +74,7 @@
  }
  
 /* RESPONSIVIDADE TELAS PEQUENAS */
-@media screen and (min-width: 600px) and (max-width:996px){
+@media screen and (min-width: 768px) and (max-width:996px){
  
 
     #cor{
@@ -85,15 +82,15 @@
         height: 95vh;
     }
      p {
-        font-size: 14px;
+        font-size: 13px;
      }
      #esquerda img{
-        width: 40%;
-        height: 25vh;
+        width: 50%;
+        height: 30vh;
      }
 }
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
-@media screen and (min-width: 280px) and (max-width: 590px) {
+@media screen and (max-width: 768px) {
     #home{
         flex-direction: column;
     }
@@ -114,8 +111,8 @@
         font-size: 9px;
      }
      #esquerda img{
-        width: 60%;
-        height: 17vh;
+        width: 35%;
+        height: 15vh;
      }
      
 }
