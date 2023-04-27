@@ -55,15 +55,18 @@
   
 
 }
-#direita p{
+.primeiro p{
     font-size:16px;
     font-family: 'Open Sans', sans-serif;
-    text-align: center;
+    text-align: justify;
     color: black;
     padding-right:2em;
     padding-left: 2em;
   
 
+}
+p em{
+    text-decoration: underline black;  
 }
 
 @keyframes text-pisca {
@@ -87,7 +90,7 @@
 }
 #cliques{
     width: 100%;
-    height: 70vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
    flex-direction: column;
@@ -100,7 +103,7 @@ p b{
 }
 .questao{
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -150,18 +153,50 @@ button:hover{
     background-color:#1684a0;
     border-color:#51d1f1;
     transform: translatey(4px) scale(0.9);
-   
+   text-align: justify;
+}
+.info-texto{
+	width: 100%;
+	height: 100%;
+    background-color:#51d1f1;
+    border: 3px solid white;
+    border-radius: 10px;
+    color: black;
+	position: inherit;
+	text-align: justify;
+}
+.info-texto p{
+	padding: 0.5em;
+  font-size: 13px;
 }
 
-/* .correto {
-    background-color: green;
-    color: white;
-  }
-.incorreto{
-    background-color: red;
-    color: white;
-} */
+
+label{
+	color: white;
+	display: flex;
+	justify-content: flex-end;
+}
+label i{
+	padding: 7px;
+	cursor: pointer;
+}
+
+/* .ckeck{
+	display: none;
+}
+ */
+.info-texto{
+ 
+	display: none;
+}
+
+#fechar1:checked ~ #info1{
+	display: block;
+}
+
 /* CLIQUE */
+
+
 #texto{
     display: flex;
     width:30%;
@@ -184,7 +219,7 @@ button:hover{
         animation-fill-mode: backwards;
     }
    
-    label{
+    #esquerda label{
     
         width:100%;
         display: flex;
@@ -199,7 +234,7 @@ button:hover{
         font-size: 18px;
    
     }
-    label:hover{
+    #esquerda label:hover{
         background-color:#1684a0;
         border-color:#51d1f1;
         transform: translateX(10px) scale(1.2);

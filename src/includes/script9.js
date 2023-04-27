@@ -2,6 +2,7 @@
 const reiniciar = document.getElementById('reiniciar'); 
 
 
+
   reiniciar.addEventListener('click', function() {
     location.reload();
   });
@@ -13,7 +14,6 @@ const reiniciar = document.getElementById('reiniciar');
     if (botaoCorreto.classList.contains('selecionado')) {
       alert('Você acertou! Parabéns!');
       botaoCorreto.style.backgroundColor = 'green';
-
     } else {
       alert('Tente novamente!');
       location.reload();
