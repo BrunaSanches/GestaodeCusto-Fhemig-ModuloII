@@ -151,14 +151,14 @@
 @media screen and (min-width: 768px) and (max-width: 996px){
  
    p{
-       font-size: 18px;
+       font-size: 15px;
     }
   
     h1{
-       font-size: 22px;
+       font-size: 20px;
     }
     .text-pisca{
-      font-size: 18px;
+      font-size: 15px;
     }
   
 }
