@@ -42,6 +42,7 @@ h1{
     text-align: center;
     color: black;
     font-weight: bold;
+
    
 }
 #esquerda img{
@@ -64,10 +65,12 @@ li{
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
     color: black;
+    padding-top: 1em;
 }
 ol{
     padding-right:2em;
     padding-left: 2em;
+
 }
 
 
