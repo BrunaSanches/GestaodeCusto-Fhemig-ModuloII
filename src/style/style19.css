@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+#esquerda{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(180deg,#1684a0,#51d1f1);
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+
+    
+}
+#direita{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color:#1684a0;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+   
+}
+#esquerda img{
+    width:50%;
+    height: 40vh;
+    border-radius:15px;
+  
+}
+#direita img{
+    width:50%;
+    height: 50vh;
+}
+h1{
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding:1em;
+}
+
+p{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    color: white;
+    padding-left:2em;
+    padding-right:2em;
+ 
+ }
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+     }
+ }
+/* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width:768px) and (max-width:996px){
+   
+     
+     p{
+        font-size: 15px;
+     }
+     #esquerda img{
+        width:60%;
+        height: 30vh;
+        border-radius:15px;
+      
+    }
+    #direita img{
+        width:70%;
+        height: 30vh;
+    }
+   
+}
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (max-width: 768px) {
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+
+    p{
+        font-size: 9px;
+     }
+     #esquerda img{
+        width:50%;
+        height: 25vh;
+        border-radius:15px;
+      
+    }
+    #direita img{
+        width:50%;
+        height: 25vh;
+    }
+   
+}
