@@ -61,7 +61,7 @@
 				</item>
 
 				<item identifier="MOD_1_SCO_11" identifierref="RES_11" isvisible="true">
-					<title>11</title>
+					<title>Texto - Estudo de Custos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_10</adlcp:prerequisites>
 				</item>	
 
@@ -99,10 +99,40 @@
 					<title>2.6 – Análise custo-benefício</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_17</adlcp:prerequisites>
 				</item>
-
-				<item identifier="MOD_1_SCO_19" identifierref="RES_19" isvisible="true">
-					<title>Fim</title>
+				
+	            <item identifier="MOD_1_SCO_19" identifierref="RES_19" isvisible="true">
+					<title>Continuação – Análise custo-benefício</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_18</adlcp:prerequisites>
+				</item>
+				
+	            <item identifier="MOD_1_SCO_20" identifierref="RES_20" isvisible="true">
+					<title>2.7 – Análise Custo de Oportunidade</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_19</adlcp:prerequisites>
+				</item>
+
+				 <item identifier="MOD_1_SCO_21" identifierref="RES_21" isvisible="true">
+					<title>2.8 – Análise Gerencial das informações</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_20</adlcp:prerequisites>
+				</item>
+				
+	            <item identifier="MOD_1_SCO_22" identifierref="RES_22" isvisible="true">
+					<title>22</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_21</adlcp:prerequisites>
+				</item>
+
+	 			<item identifier="MOD_1_SCO_23" identifierref="RES_23" isvisible="true">
+					<title>23</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_22</adlcp:prerequisites>
+				</item>
+				
+	            <item identifier="MOD_1_SCO_24" identifierref="RES_24" isvisible="true">
+					<title>2.9 – Oficina Estudo de Casos</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_23</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_25" identifierref="RES_25" isvisible="true">
+					<title>Fim</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_24</adlcp:prerequisites>
 				</item>
 				
 
@@ -215,7 +245,33 @@
 		   <dependency identifierref="INC"/>
 		</resource>
 
-        <resource identifier="RES_19" type="webcontent" adlcp:scormtype="sco" href="src/paginaFim.html">
+		 <resource identifier="RES_19" type="webcontent" adlcp:scormtype="sco" href="src/pagina19.html">
+		   <file href="src/pagina19.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		 <resource identifier="RES_20" type="webcontent" adlcp:scormtype="sco" href="src/pagina20.html">
+		   <file href="src/pagina20.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+		 <resource identifier="RES_21" type="webcontent" adlcp:scormtype="sco" href="src/pagina21.html">
+		   <file href="src/pagina21.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+		 <resource identifier="RES_22" type="webcontent" adlcp:scormtype="sco" href="src/pagina22.html">
+		   <file href="src/pagina22.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+		 <resource identifier="RES_23" type="webcontent" adlcp:scormtype="sco" href="src/pagina23.html">
+		   <file href="src/pagina23.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+		 <resource identifier="RES_24" type="webcontent" adlcp:scormtype="sco" href="src/pagina24.html">
+		   <file href="src/pagina24.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+        <resource identifier="RES_25" type="webcontent" adlcp:scormtype="sco" href="src/paginaFim.html">
 		   <file href="src/paginaFim.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
