@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+#esquerda{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color:#0096bb;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+
+    
+}
+#direita{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+   
+}
+embed{
+    width: 100%;
+    height: 100vh;
+}
+#esquerda img{
+    width: 70%;
+    height: 50vh;
+}
+h1{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding:1em;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+    padding-left:2em;
+    padding-right:2em;
+ 
+ }
+ 
+/* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width:768px) and (max-width:996px){
+   
+    h1{
+       font-size: 20px;
+    }
+    p{
+       font-size: 15px;
+    }
+    embed{
+        width: 100%;
+        height: 100vh;
+    }
+}
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (max-width: 768px) {
+   #home{
+       flex-direction: column;
+   }
+   #esquerda{
+       width: 100%;
+       height: 50vh;
+       
+   }
+   #direita{
+       width: 100%;
+       height: 50vh;
+   }
+   h1{
+       font-size: 13px;
+    }
+   
+   p{
+       font-size: 10px;
+    }
+    embed{
+        width: 100%;
+        height: 50vh;
+    }
+}
