@@ -15,7 +15,7 @@
     justify-content:space-evenly;
     flex-direction: column;
     align-items: center;
-    background-color:#51d1f1;
+    background-image: linear-gradient(180deg,#0096bb,#51d1f1);
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: backwards;
@@ -29,14 +29,23 @@
     justify-content:space-evenly;
     align-items: center;
     flex-direction: column;
-    background-image: linear-gradient(360deg,#0096bb,#51d1f1);
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: backwards;
-   
+    background-color:#0096bb;
+    
+}
+#cor{
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color:#1684a0;
 }
 #esquerda img{
-    width:85%;
+    width:80%;
     height: 70vh;
     border-radius:15px;
     border: 3px solid #1684a0;
@@ -47,7 +56,7 @@ h1{
     font-weight: 700;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    color: black;
+    color: white;
     font-weight: bold;
     padding:1em;
 }
@@ -56,7 +65,7 @@ p{
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
-    color: black;
+    color: white;
     padding-left:2em;
     padding-right:2em;
 }
@@ -77,10 +86,10 @@ p{
    }
      
     p{
-       font-size: 15px;
+       font-size: 13px;
     }
   
-   #direita img{
+   #esquerda img{
        width:80%;
        height: 50vh;
    }
@@ -102,14 +111,17 @@ p{
    }
 
    p{
-       font-size: 9px;
+       font-size: 10px;
     }
     h1{
         font-size: 15px;
    }
-   #direita img{
-       width:80%;
+   #esquerda img{
+       width:60%;
        height: 40vh;
    }
-  
+   #cor{
+    width: 95%;
+    height:45vh;
+   }
 }
