@@ -51,7 +51,7 @@
 				</item>
 
 				<item identifier="MOD_1_SCO_9" identifierref="RES_9" isvisible="true">
-					<title>Avaliação dos Custos Individuais </title>
+					<title>NÃO FINALIZADA - Avaliação dos Custos Individuais </title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_8</adlcp:prerequisites>
 				</item>
 
@@ -116,17 +116,17 @@
 				</item>
 				
 	            <item identifier="MOD_1_SCO_22" identifierref="RES_22" isvisible="true">
-					<title>22</title>
+					<title>O que possibilita as Análises Gerenciais?</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_21</adlcp:prerequisites>
 				</item>
 
 	 			<item identifier="MOD_1_SCO_23" identifierref="RES_23" isvisible="true">
-					<title>23</title>
+					<title>Explicação - O que possibilita as Análises Gerenciais?</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_22</adlcp:prerequisites>
 				</item>
 				
 	            <item identifier="MOD_1_SCO_24" identifierref="RES_24" isvisible="true">
-					<title>24</title>
+					<title>NÃO FINALIZADA - 2.9 – Oficina Estudo de Casos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_23</adlcp:prerequisites>
 				</item>
 
