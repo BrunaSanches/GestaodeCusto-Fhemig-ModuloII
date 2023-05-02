@@ -47,7 +47,7 @@
 #esquerda img{
     width:80%;
     height: 70vh;
-    border-radius:15px;
+    border-radius:10px;
     border: 3px solid #1684a0;
   
 }
@@ -114,11 +114,11 @@ p{
        font-size: 10px;
     }
     h1{
-        font-size: 15px;
+        font-size: 14px;
    }
    #esquerda img{
-       width:60%;
-       height: 40vh;
+       width:70%;
+       height: 35vh;
    }
    #cor{
     width: 95%;
