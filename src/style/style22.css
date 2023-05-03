@@ -64,7 +64,7 @@
 	padding: 0.6em 0.8em;
 	display: inline-block;
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 20px;
     text-align: center;
 	-webkit-animation: text-pisca .7s linear infinite;
 	-moz-animation: text-pisca .7s linear infinite;
@@ -143,7 +143,7 @@
     color:black;
     padding-left:2em;
     padding-right:2em;
-    font-weight: 500;
+    font-weight:450;
  
  }
  #esquerda img{
@@ -164,7 +164,7 @@
         font-size: 15px;
      }
     .text-pisca{
-       font-size: 15px;
+       font-size: 17px;
      }
      .texto-resposta{
         font-size: 13px;
