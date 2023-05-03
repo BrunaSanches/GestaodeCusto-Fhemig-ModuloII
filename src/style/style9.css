@@ -45,7 +45,111 @@
         opacity: 1;
      }
  }
- #esquerda p{
+ 
+#reiniciar{
+    width:30%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:rgb(6, 67, 136);
+    border: 3px solid#51d1f1;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 0.5em;
+}
+button:hover{
+    background-color:#1684a0;
+    border-color:#51d1f1;
+    transform: translatey(4px) scale(0.9);
+    text-align: justify;
+}
+.questao{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.questao label{
+    width:85%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:rgb(6, 67, 136);
+    border: 3px solid#51d1f1;
+    border-radius: 10px;
+    padding: 0.5em;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+.questao label:hover{
+    background-color:#1684a0;
+    border-color:#51d1f1;
+    transform: translatey(4px) scale(0.9);
+   text-align: justify;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+
+#checkbox1:checked + label {
+    background-color: red;
+}
+#checkbox2:checked + label {
+    background-color: red;
+}
+#checkbox3:checked + label {
+    background-color: red;
+}
+#checkbox4:checked + label {
+    background-color: red;
+}
+#checkbox5:checked + label {
+    background-color: green;
+}
+
+/* CLIQUE RESOLUCAO */
+.resoluçao label{
+    display: flex;
+    justify-content:start;
+    align-items: left;
+    background-color:#51d1f1;
+    border: 3px solid rgb(6, 67, 136);
+    border-radius: 10px;
+    padding: 0.5em;
+    color: rgb(6, 67, 136);
+    font-weight: bold;
+    font-size: 12px;
+}
+#resposta{
+    display: none;
+}
+
+.resoluçao #resposta{
+    font-size:12px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    padding:0.5em;
+    background-color:#0096bb;
+    border: 5px solid white;
+    color: white;
+    border-radius: 5px;
+}
+#ckb2:checked ~#resposta{
+    display: block;
+}
+
+/* CLIQUE ESQUERDA */
+
+#esquerda p{
     font-size:15px;
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
@@ -56,7 +160,7 @@
 
 }
 .primeiro p{
-    font-size:16px;
+    font-size:15px;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     color: black;
@@ -65,9 +169,7 @@
   
 
 }
-p em{
-    text-decoration: underline black;  
-}
+
 
 @keyframes text-pisca {
 	0% { opacity: 0; }
@@ -99,104 +201,12 @@ p b{
     color:rgb(6, 67, 136);
 
 }
+
 #negrito{
     font-weight: bold;
     text-align: center;
+    font-size: 14px;
 }
-.questao{
-    width: 100%;
-    height: 60vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-}
-.questao button{
-    width:85%;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    background-color:rgb(6, 67, 136);
-    border: 3px solid#51d1f1;
-    border-radius: 10px;
-    padding: 0.5em;
-    color: white;
-    font-weight: bold;
-    font-size: 13px;
-}
-#corrigir{
-    width:30%;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    background-color:rgb(6, 67, 136);
-    border: 3px solid#51d1f1;
-    border-radius: 10px;
-    color: white;
-    font-weight: bold;
-    font-size: 13px;
-    padding: 0.5em;
-}
-#reiniciar{
-    width:30%;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    background-color:rgb(6, 67, 136);
-    border: 3px solid#51d1f1;
-    border-radius: 10px;
-    color: white;
-    font-weight: bold;
-    font-size: 13px;
-    padding: 0.5em;
-}
-
-button:hover{
-    background-color:#1684a0;
-    border-color:#51d1f1;
-    transform: translatey(4px) scale(0.9);
-   text-align: justify;
-}
-.info-texto{
-	width: 100%;
-	height: 100%;
-    background-color:#51d1f1;
-    border: 3px solid white;
-    border-radius: 10px;
-    color: black;
-	position: inherit;
-	text-align: justify;
-}
-.info-texto p{
-	padding: 0.5em;
-  font-size: 13px;
-}
-
-
-label{
-	color: white;
-	display: flex;
-	justify-content: flex-end;
-}
-label i{
-	padding: 7px;
-	cursor: pointer;
-}
-
-/* .ckeck{
-	display: none;
-}
- */
-.info-texto{
- 
-	display: none;
-}
-
-#fechar1:checked ~ #info1{
-	display: block;
-}
-
-/* CLIQUE */
 
 
 #texto{
@@ -230,7 +240,7 @@ label i{
         background-color:rgb(6, 67, 136);
         border: 3px solid#51d1f1;
         border-radius: 10px;
-        padding: 1em;
+        padding: 0.5em;
         color: white;
         font-weight: bold;
         font-size: 18px;
@@ -242,7 +252,7 @@ label i{
         transform: translateX(10px) scale(1.2);
        
     }
-    .texto-resposta{
+    #esquerda .texto-resposta{
 
         position: relative;
         text-align: justify;
@@ -254,6 +264,7 @@ label i{
         border: 3px solid#51d1f1;
         border-radius: 10px;
         font-weight: 500;
+        padding: 0.5em;
        
     }
     .seta{
@@ -274,7 +285,7 @@ label i{
        
     }
     h3{
-        font-size: 20px;
+        font-size: 18px;
         font-family: 'Open Sans', sans-serif;
         text-align: justify;
         color: rgb(6, 67, 136);
@@ -284,7 +295,7 @@ label i{
      }
 
 /* RESPONSIVIDADE TELAS PEQUENAS */
-@media screen and (min-width: 768px) and (max-width: 996px){
+@media screen and (min-width: 768px) and (max-width: 1024px){
  
     #esquerda p{
         font-size: 12px;
@@ -296,27 +307,29 @@ label i{
      h3{
         font-size: 18px;
      }
-     .questao button{
-        font-size: 11px;
+     .questao label{
+        font-size: 12px;
      }
      #reiniciar{
         font-size: 11px;
      }
-     #corrigir{
-        font-size: 11px;
-     }
-     label{
-        font-size: 13px;
-     }
+
      .questao{
         width: 90%;
-        height: 40vh;
+        height: 50vh;
      } 
      .text-pisca{
         font-size: 13px;
      }
-     
-   
+     #esquerda label{
+        font-size: 14px;
+     }
+     .resoluçao #resposta{
+        font-size:10px;
+     }
+     .resoluçao label{
+        font-size:12px;
+     }
  }
  /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
  @media screen and (max-width: 768px) {
@@ -333,36 +346,45 @@ label i{
         height: 50vh;
     }
     #esquerda p{
-        font-size: 9px;
-     }
-     #direita p{
-        font-size: 8px;
-     }
-     .text-pisca{
-        font-size: 9px;
-     }
-     
-     h3{
-        font-size: 13px;
-     }
-     .questao button{
-        font-size:8px;
-     }
-     #reiniciar{
-        font-size: 8px;
-     }
-     #corrigir{
-        font-size: 8px;
-     }
-     label{
         font-size: 10px;
      }
+     #direita p{
+        font-size: 9px;
+     }
+   
+     h3{
+        font-size: 11px;
+     }
+     .questao label{
+        font-size: 9px;
+        width: 95%;
+    
+     }
+     #reiniciar{
+        font-size: 10px;
+     }
+
      .questao{
-        width: 90%;
+        width: 98%;
         height: 30vh;
+
+     } 
+     
+     .text-pisca{
+        font-size: 10px;
+     }
+     #esquerda label{
+        font-size: 12px;
      }
     .seta{
         width: 25px;
         height: auto;
      }
+     .resoluçao #resposta{
+        font-size:7px;
+     }
+     .resoluçao label{
+        font-size:8px;
+     }
+
 }

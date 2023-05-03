@@ -1,36 +1,31 @@
 
-const reiniciar = document.getElementById('reiniciar'); 
-
-
-
-  reiniciar.addEventListener('click', function() {
-    location.reload();
-  });
-  
-  function verificarBotao() {
-    const botaoCorreto = document.querySelector('button:last-child');
-
-    
-    if (botaoCorreto.classList.contains('selecionado')) {
-      alert('Você acertou! Parabéns!');
-      botaoCorreto.style.backgroundColor = 'green';
-    } else {
-      alert('Tente novamente!');
-      location.reload();
-    }
+document.getElementById("reiniciar").addEventListener("click", function() {
+  var checkboxes = document.getElementsByName("opcao");
+  for (var i = 0; i < checkboxes.length; i++) {
+    checkboxes[i].checked = false;
   }
-  
-  // Adicionar um evento de clique em cada botão
-  const botoes = document.querySelectorAll('button:not(#corrigir)');
-  botoes.forEach(botao => {
-    botao.addEventListener('click', () => {
-      botoes.forEach(b => b.classList.remove('selecionado'));
-      botao.classList.add('selecionado');
-      
-      botao.style.backgroundColor = '#1684a0';
-    });
+});
+
+const checkboxes = document.getElementsByName("opcao");
+
+for (let i = 0; i < checkboxes.length; i++) {
+  checkboxes[i].addEventListener("click", function() {
+    for (let j = 0; j < checkboxes.length; j++) {
+      if (j !== i) {
+        checkboxes[j].checked = false;
+      }
+    }
   });
-  
-  // Adicionar um evento de clique no botão de correção
-  const botaoCorrigir = document.querySelector('#corrigir');
-  botaoCorrigir.addEventListener('click', verificarBotao);
+}
+
+
+for (let i = 0; i < checkboxes.length; i++) {
+  checkboxes[i].addEventListener("change", function() {
+    if (checkboxes[4].checked) {
+      alert("Parabéns! Você Acertou!");
+    }
+    else{
+      alert("Resposta Incorreta! Clique no botão REINICIAR e tente novamente!");
+    }
+  });
+}
