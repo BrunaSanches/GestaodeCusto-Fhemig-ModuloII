@@ -126,7 +126,7 @@
 				</item>
 				
 	            <item identifier="MOD_1_SCO_24" identifierref="RES_24" isvisible="true">
-					<title>NÃO FINALIZADA - 2.9 – Oficina Estudo de Casos</title>
+					<title>2.9 – Oficina Estudo de Casos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_23</adlcp:prerequisites>
 				</item>
 
