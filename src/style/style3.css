@@ -57,6 +57,7 @@ p{
     color: white;
     padding-right:2em;
     padding-left: 2em;
+
     font-weight: bold;
 
 }
@@ -66,6 +67,7 @@ li{
     text-align: justify;
     color: white;
     font-weight: 25pt;
+    padding-bottom: 1em;
   
 }
 ul{
@@ -88,7 +90,7 @@ h1{
 @media screen and (min-width: 768px) and (max-width: 1024px){
    
     p{
-        font-size: 15px;
+        font-size: 17px;
         
      }
      li{
@@ -96,7 +98,7 @@ h1{
         
      }
      h1{
-        font-size: 18px;
+        font-size: 20px;
      }
    
 }
