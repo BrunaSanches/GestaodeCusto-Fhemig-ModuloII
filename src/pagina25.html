@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tabela de Respostas</title>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+    td {
+      padding: 5px;
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+  <table id="respostas">
+    <tr>
+      <th>Procedimentos</th>
+      <th>Base de Rateio</th>
+      <th>Coeficiente de Rateio</th>
+      <th>Custos Indiretos</th>
+      <th>Custos Diretos</th>
+      <th>Total</th>
+    </tr>
+    <tr>
+        <th>A</th>
+      <td><input type="text" class="resposta" /></td>
+      <td><input type="text" class="resposta" /></td>
+      <td><input type="text" class="resposta" /></td>
+      <td><input type="text" class="resposta" /></td>
+      <td><input type="text" class="resposta" /></td>
+    </tr>
+    <tr>
+    <th>B</th>
+      <td><input type="text" class="resposta" /></td>
+      <td><input type="text" class="resposta" /></td>
+      <td><input type="text" class="resposta" /></td>
+      <td><input type="text" class="resposta" /></td>
+      <td><input type="text" class="resposta" /></td>
+    </tr>
+    <tr>
+    <th>C</th>
+      <td><input type="text" class="resposta" /></td>
+      <td><input type="text" class="resposta" /></td>
+      <td><input type="text" class="resposta" /></td>
+      <td><input type="text" class="resposta" /></td>
+      <td><input type="text" class="resposta" /></td>
+    </tr>
+    <tr>
+        <th>Total</th>
+      <td><input type="text" class="resposta" /></td>
+      <td><input type="text" class="resposta" /></td>
+      <td><input type="text" class="resposta" /></td>
+      <td><input type="text" class="resposta" /></td>
+      <td><input type="text" class="resposta" /></td>
+      
+    </tr>
+    
+  </table>
+
+  <button onclick="verificarRespostas()">Verificar</button>
+
+  <script>
+    function verificarRespostas() {
+      var tabela = document.getElementById("respostas");
+      var respostas = tabela.getElementsByClassName("resposta");
+      var corretas = 0;
+      var respostasCorretas = [
+        ["resposta1_correta", "resposta2_correta", "resposta3_correta", "resposta4_correta"],
+        ["resposta5_correta", "resposta6_correta", "resposta7_correta", "resposta8_correta"],
+        ["resposta9_correta", "resposta10_correta", "resposta11_correta", "resposta12_correta"],
+        ["resposta13_correta", "resposta14_correta", "resposta15_correta", "resposta16_correta"],
+        ["resposta17_correta", "resposta18_correta", "resposta19_correta", "resposta20_correta"]
+      ];
+
+      for (var i = 0; i < respostas.length; i++) {
+        var resposta = respostas[i].value;
+        var linha = Math.floor(i / 4);
+        var coluna = i % 4;
+
+        if (resposta === respostasCorretas[linha][coluna]) {
+          respostas[i].style.backgroundColor = "#cfc"; // Marcar como correta
+          corretas++;
+        } else {
+          respostas[i].style.backgroundColor = "#f99"; // Marcar como incorreta
+        }
+      }
+
+      alert("Você acertou " + corretas + " respostas.");
+    }
+  </script>
+</body>
+</html>
