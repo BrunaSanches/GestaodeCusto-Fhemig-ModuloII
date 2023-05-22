@@ -214,34 +214,52 @@
     height: 70vh;
 }
 
-.balao{
-    width: 600px;
-    height:400px;
-  
-}
+
 #caixa-boneco{
     width: 50%;
     height: 95vh;
-
     display: flex;
     align-items:end;
     justify-content:start;
+
 }
 #caixa-balao{
-    width: 50%;
-    height:75vh;
+	width: 50%;
+	height:95vh;
     display: flex;
     flex-direction: row;
     align-items:baseline;
     justify-content:end;
-    background-image: url("src/imagens/pag25/balao.png");
-    background-size: cover;
-    background-position: center; 
-    color: black; 
-    text-align: center; 
+ 
 
 }
+#balao{
+	position: relative;
+	width: 50%;
+	height:50%;
+	
+}
+#balao img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: auto;
+	height:250px;
+	object-fit: cover;
+	display: block;
+}
 
+#balao .texto {
+	position: absolute;
+	top: 35%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	text-align: center;
+  }
 .conversa-pergunta{
     display: flex;
 }
