@@ -260,6 +260,11 @@
 	font-size: 18px;
 	text-align: center;
   }
+
+
+
+/* paginas com pergunta */
+
 .conversa-pergunta{
     display: flex;
 }
@@ -272,6 +277,7 @@
     width: 50%;
     width: 15vh;
 }
+
 .questao-esquerda{
    
     width: 50%;
