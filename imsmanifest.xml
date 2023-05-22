@@ -126,87 +126,87 @@
 				</item>	
 
 				<item identifier="MOD_1_SCO_24" identifierref="RES_24" isvisible="true">
-					<title>Sobre o Próximo Video...</title>
+					<title>Complementar - O que é custo efetividade e como calculá-lo?</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_23</adlcp:prerequisites>
 				</item>	
 
 				<item identifier="MOD_1_SCO_25" identifierref="RES_25" isvisible="true">
-					<title>Vídeo - O que é custo efetividade e como calculá-lo?</title>
+					<title>A Importância do Custo Efetividade</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_24</adlcp:prerequisites>
 				</item>	
 
 				<item identifier="MOD_1_SCO_26" identifierref="RES_26" isvisible="true">
-					<title>A Importância do Custo Efetividade</title>
+					<title>Vídeo - Análise custo-benefício</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_25</adlcp:prerequisites>
-				</item>	
+				</item>
 
 				<item identifier="MOD_1_SCO_27" identifierref="RES_27" isvisible="true">
-					<title>Vídeo - Análise custo-benefício</title>
+					<title>Vídeo - Resumo Análise custo-benefício</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_26</adlcp:prerequisites>
 				</item>
 
-				<item identifier="MOD_1_SCO_28" identifierref="RES_28" isvisible="true">
-					<title>Vídeo - Resumo Análise custo-benefício</title>
+	            <item identifier="MOD_1_SCO_28" identifierref="RES_28" isvisible="true">
+					<title>2.6 – Análise custo-benefício</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_27</adlcp:prerequisites>
 				</item>
-
+				
 	            <item identifier="MOD_1_SCO_29" identifierref="RES_29" isvisible="true">
-					<title>2.6 – Análise custo-benefício</title>
+					<title>Continuação – Análise custo-benefício</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_28</adlcp:prerequisites>
 				</item>
-				
-	            <item identifier="MOD_1_SCO_30" identifierref="RES_30" isvisible="true">
-					<title>Continuação – Análise custo-benefício</title>
+
+				<item identifier="MOD_1_SCO_30" identifierref="RES_30" isvisible="true">
+					<title>Vídeo - Análise Custo de Oportunidade</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_29</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_31" identifierref="RES_31" isvisible="true">
-					<title>Vídeo - Análise Custo de Oportunidade</title>
+					<title>Vídeo - Resumo Análise Custo de Oportunidade</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_30</adlcp:prerequisites>
 				</item>
-
-				<item identifier="MOD_1_SCO_32" identifierref="RES_32" isvisible="true">
-					<title>Vídeo - Resumo Análise Custo de Oportunidade</title>
+				
+	            <item identifier="MOD_1_SCO_32" identifierref="RES_32" isvisible="true">
+					<title>2.7 – Análise Custo de Oportunidade</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_31</adlcp:prerequisites>
 				</item>
-				
-	            <item identifier="MOD_1_SCO_33" identifierref="RES_33" isvisible="true">
-					<title>2.7 – Análise Custo de Oportunidade</title>
+
+				<item identifier="MOD_1_SCO_33" identifierref="RES_33" isvisible="true">
+					<title>Vídeo - Análise Gerencial das informações</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_32</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_34" identifierref="RES_34" isvisible="true">
-					<title>Vídeo - Análise Gerencial das informações</title>
+					<title>Vídeo - Resumo Análise Gerencial das informações</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_33</adlcp:prerequisites>
 				</item>
 
-				<item identifier="MOD_1_SCO_35" identifierref="RES_35" isvisible="true">
-					<title>Vídeo - Resumo Análise Gerencial das informações</title>
+				 <item identifier="MOD_1_SCO_35" identifierref="RES_35" isvisible="true">
+					<title>2.8 – Análise Gerencial das informações</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_34</adlcp:prerequisites>
 				</item>
-
-				 <item identifier="MOD_1_SCO_36" identifierref="RES_36" isvisible="true">
-					<title>2.8 – Análise Gerencial das informações</title>
+				
+	            <item identifier="MOD_1_SCO_36" identifierref="RES_36" isvisible="true">
+					<title>O que possibilita as Análises Gerenciais?</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_35</adlcp:prerequisites>
 				</item>
-				
-	            <item identifier="MOD_1_SCO_37" identifierref="RES_37" isvisible="true">
-					<title>O que possibilita as Análises Gerenciais?</title>
+
+	 			<item identifier="MOD_1_SCO_37" identifierref="RES_37" isvisible="true">
+					<title>Explicação - O que possibilita as Análises Gerenciais?</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_36</adlcp:prerequisites>
 				</item>
 
-	 			<item identifier="MOD_1_SCO_38" identifierref="RES_38" isvisible="true">
-					<title>Explicação - O que possibilita as Análises Gerenciais?</title>
+				<item identifier="MOD_1_SCO_38" identifierref="RES_38" isvisible="true">
+					<title>Vídeo - Oficina de Estudo de Casos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_37</adlcp:prerequisites>
 				</item>
-
-				<item identifier="MOD_1_SCO_39" identifierref="RES_39" isvisible="true">
-					<title>Vídeo - Oficina de Estudo de Casos</title>
+				
+	            <item identifier="MOD_1_SCO_39" identifierref="RES_39" isvisible="true">
+					<title>2.9 – Oficina Estudo de Casos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_38</adlcp:prerequisites>
 				</item>
-				
-	            <item identifier="MOD_1_SCO_40" identifierref="RES_40" isvisible="true">
-					<title>2.9 – Oficina Estudo de Casos</title>
+				<!-- pagina oficina -->
+ 				<item identifier="MOD_1_SCO_40" identifierref="RES_40" isvisible="true">
+					<title>Oficina - História</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_39</adlcp:prerequisites>
 				</item>
 
@@ -359,83 +359,83 @@
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_25" type="webcontent" adlcp:scormtype="sco" href="src/pagina16.html">
-		   <file href="src/pagina16.html"/>
-		   <dependency identifierref="INC"/>
-		</resource>
-
-        <resource identifier="RES_26" type="webcontent" adlcp:scormtype="sco" href="src/pagina17.html">
+        <resource identifier="RES_25" type="webcontent" adlcp:scormtype="sco" href="src/pagina17.html">
 		   <file href="src/pagina17.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
         
-        <resource identifier="RES_27" type="webcontent" adlcp:scormtype="sco" href="src/pagina18.html">
+        <resource identifier="RES_26" type="webcontent" adlcp:scormtype="sco" href="src/pagina18.html">
 		   <file href="src/pagina18.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_28" type="webcontent" adlcp:scormtype="sco" href="src/video37.html">
+		<resource identifier="RES_27" type="webcontent" adlcp:scormtype="sco" href="src/video37.html">
 		   <file href="src/video37.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_29" type="webcontent" adlcp:scormtype="sco" href="src/video38.html">
+		<resource identifier="RES_28" type="webcontent" adlcp:scormtype="sco" href="src/video38.html">
 		   <file href="src/video38.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		 <resource identifier="RES_30" type="webcontent" adlcp:scormtype="sco" href="src/pagina19.html">
+		 <resource identifier="RES_29" type="webcontent" adlcp:scormtype="sco" href="src/pagina19.html">
 		   <file href="src/pagina19.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		 <resource identifier="RES_31" type="webcontent" adlcp:scormtype="sco" href="src/pagina20.html">
+		 <resource identifier="RES_30" type="webcontent" adlcp:scormtype="sco" href="src/pagina20.html">
 		   <file href="src/pagina20.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_32" type="webcontent" adlcp:scormtype="sco" href="src/video39.html">
+		<resource identifier="RES_31" type="webcontent" adlcp:scormtype="sco" href="src/video39.html">
 		   <file href="src/video39.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_33" type="webcontent" adlcp:scormtype="sco" href="src/video40.html">
+		<resource identifier="RES_32" type="webcontent" adlcp:scormtype="sco" href="src/video40.html">
 		   <file href="src/video40.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		 <resource identifier="RES_34" type="webcontent" adlcp:scormtype="sco" href="src/pagina21.html">
+		 <resource identifier="RES_33" type="webcontent" adlcp:scormtype="sco" href="src/pagina21.html">
 		   <file href="src/pagina21.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_35" type="webcontent" adlcp:scormtype="sco" href="src/video41.html">
+		<resource identifier="RES_34" type="webcontent" adlcp:scormtype="sco" href="src/video41.html">
 		   <file href="src/video41.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_36" type="webcontent" adlcp:scormtype="sco" href="src/video42.html">
+		<resource identifier="RES_35" type="webcontent" adlcp:scormtype="sco" href="src/video42.html">
 		   <file href="src/video42.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		 <resource identifier="RES_37" type="webcontent" adlcp:scormtype="sco" href="src/pagina22.html">
+		 <resource identifier="RES_36" type="webcontent" adlcp:scormtype="sco" href="src/pagina22.html">
 		   <file href="src/pagina22.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		 <resource identifier="RES_38" type="webcontent" adlcp:scormtype="sco" href="src/pagina23.html">
+		 <resource identifier="RES_37" type="webcontent" adlcp:scormtype="sco" href="src/pagina23.html">
 		   <file href="src/pagina23.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_39" type="webcontent" adlcp:scormtype="sco" href="src/video43.html">
+		<resource identifier="RES_38" type="webcontent" adlcp:scormtype="sco" href="src/video43.html">
 		   <file href="src/video43.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		 <resource identifier="RES_40" type="webcontent" adlcp:scormtype="sco" href="src/pagina24.html">
+		 <resource identifier="RES_39" type="webcontent" adlcp:scormtype="sco" href="src/pagina24.html">
 		   <file href="src/pagina24.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_40" type="webcontent" adlcp:scormtype="sco" href="src/pagina25.html">
+		   <file href="src/pagina25.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
