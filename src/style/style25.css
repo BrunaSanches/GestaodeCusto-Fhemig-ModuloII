@@ -15,7 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(-120deg,#0096bb,#51d1f1);
+    background-color:#0096bb;
 	animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: backwards;
@@ -29,16 +29,16 @@
 .book{
    
 	width: 95%;
-	height: 95%;
+	height: 95vh;
 	display: flex;
 	justify-content: center;
     align-items: center;
 }
 
 .flip-book{
-   
+	
 	width: 100%;
-	height: 100%;
+	height: 95vh;
 	position: relative;
 	perspective: 1500px;
 	border: 1px #0000;
@@ -46,7 +46,7 @@
 .flip{
 
 	width: 100%;
-	height: 100%;
+	height: 95vh;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -55,17 +55,16 @@
 }
 
 .front{
- 
 	position: absolute;
 	width: 100%;
-	height: 100%;
+	height: 95vh;
 	top: 0;
 	left: 0;
 	background-color: #fff;
 	box-sizing: border-box;
-	padding: 0 13px;
+	
 	display: flex;
-
+	
 
 }
 
@@ -199,7 +198,15 @@
 	z-index: 14;
 }
 
-
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+     }
+ }
+ 
 /* CONTEUDO */
 
 .conversa{
@@ -210,79 +217,156 @@
 
 }
 .boneco{
-    width: 60%;
-    height: 70vh;
+	width: 80%;
+    height: 75vh;
+	animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
 }
 
 
+
 #caixa-boneco{
-    width: 50%;
+    width: 25%;
     height: 95vh;
     display: flex;
     align-items:end;
     justify-content:start;
 
+
 }
 #caixa-balao{
-	width: 50%;
+	width:25%;
 	height:95vh;
     display: flex;
     flex-direction: row;
     align-items:baseline;
     justify-content:end;
- 
+
 
 }
 #balao{
 	position: relative;
-	width: 50%;
+	width: 60%;
 	height:50%;
-	
+	display: flex;
+    justify-content:end;
+	animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
 }
 #balao img{
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: auto;
-	height:250px;
+	width: 200px;
+	height:200px;
 	object-fit: cover;
 	display: block;
 }
 
 #balao .texto {
 	position: absolute;
+	width: 100%;
+	height:50%;
 	top: 35%;
-	left:50%;
-	transform: translate(-50%, -50%);
+	left:70%;
+	transform: translate(-60%, -60%);
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 18px;
+	
 	text-align: center;
+  }
+  .texto p{
+	font-size: 18px;
+	font-weight: bold;
   }
 
 
 
 /* paginas com pergunta */
 
+
 .conversa-pergunta{
+    width: 100%;
+	height: 50vh;
     display: flex;
+    align-items:center;
+    justify-content: center;
+
 }
 .boneco-pergunta{
-    width: 70%;
-    width: 15vh;
+	width: 60%;
+    height: 40vh;
+	animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+
 }
 
-.balao-pergunta{
-    width: 50%;
-    width: 15vh;
+
+#caixa-boneco-pergunta{
+    width: 40%;
+    height: 50vh;
+    display: flex;
+    align-items:end;
+    justify-content:end;
+
+
 }
+#caixa-balao-pergunta{
+	width:50%;
+	height:50vh;
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    justify-content:start;
+
+
+}
+#balao-pergunta{
+	position: relative;
+	width:80%;
+	height:90%;
+	display: flex;
+    justify-content:start;
+	animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+}
+#balao-pergunta img{
+	position: absolute;
+	width:200px;
+	height:200px;
+	object-fit: cover;
+	display: block;
+}
+
+#balao-pergunta .texto-pergunta{
+	position: absolute;
+	width: 70%;
+	height:40%;
+	margin-top: 35%;
+	margin-left:40%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  }
+  .texto-pergunta p{
+	font-size: 13px;
+	font-weight: bold;
+  }
 
 .questao-esquerda{
    
     width: 50%;
     height:95vh;
     display: flex;
+	flex-direction: column;
+	background-color: #51d1f1;
 }
 .questao-direita{
     
@@ -290,6 +374,21 @@
     height:95vh;
     display: flex;
     flex-direction: column;
+}
+.esquerda-abaixo{
+    width: 100%;
+    height:50vh;
+    display: flex;
+}
+.esquerda-acima{
+  
+    width: 100%;
+    height:50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 .direita-abaixo{
     width: 100%;
@@ -311,13 +410,47 @@ table {
     height:30vh;
     border-collapse: collapse;
     text-align: center;
+	border: 2px solid #0096Bb;
+	border-radius: 5px;
+	
   }
   td {
 
-    border: 1px solid black;
+    border: 2px solid #0096Bb;
+	
   }
   .resposta{
     width:98%;
     height: 98%;
  
   }
+  th{
+	border: 2px solid #0096Bb;
+  }
+
+
+.diferente{
+	background-color: #1684a0;
+	color: white;
+	padding: 10px;
+	font-size: 15px;
+	
+}
+.diferente td{
+	padding:5px;
+	
+}
+.diferente td{
+	padding:5px;
+}
+  button{	
+	background-color: #51d1f1;
+	border-radius: 5px;
+	border-color: #0096Bb;
+	font-weight: bold;
+	padding: 5px;
+
+}
+button:hover{
+	transform: translateX(7px) scale(1.2);
+}
