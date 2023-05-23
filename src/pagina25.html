@@ -27,6 +27,7 @@
         <input class="check" type="checkbox" id="c12">
         <input class="check" type="checkbox" id="c13">
         <input class="check" type="checkbox" id="c14">
+        <input class="check" type="checkbox" id="c15">
   
         <div class="flip-book">
           <div class="flip" id="p1">
@@ -432,7 +433,7 @@
                     </tr>
                     <tr>
                       <th>Total</th>
-                      <td><input type="text" class="resposta" /></td>
+                      <td><input type="text" class="resposta"  /></td>
                       <td><input type="text" class="resposta" /></td>
                       <td><input type="text" class="resposta" /></td>
                       <td><input type="text" class="resposta" /></td>
@@ -440,7 +441,7 @@
                     </tr>
                   </table>
       
-                  <button onclick="verificarRespostas()">Verificar</button>
+                  <button onclick="verificarRespostas1()">Verificar</button>
                 </div>
                
   
@@ -453,7 +454,7 @@
                       <div id="balao-pergunta">
                         <img src="imagens/pag25/balaoInvertido.png" alt="">
                         <div class="texto-pergunta">
-                          <p>Agora preenchendo a tabela acima, calcule o coeficiente de rateio baseada na mão de obra utilizada.</p>
+                          <p>Calcule o coeficiente de rateio baseada na mão de obra utilizada.</p>
                         </div>
                       </div>
                     
@@ -471,26 +472,107 @@
           <div class="flip" id="p14">
             <div class="front">
               <label class="back-btn" for="c14">Voltar</label>
-              <p>14</p>
-             <div class="conversa-pergunta">
-                     <div id="caixa-boneco-pergunta">
-                         <img class="boneco-pergunta" src="imagens/pag25/pessoa2.png" alt="">
-                    </div>
-                    <div id="caixa-balao-pergunta">
-                      <div id="balao-pergunta">
-                        <img src="imagens/pag25/balao.png" alt="">
-                        <div class="texto-pergunta">
-                          <p>Descubra qual será o total dos custos.</p>
-                        </div>
-                      </div>
-                    
-                    </div>
-                  
-                  </div>
+
+              <div class="esquerda">
+                <div class="conversa-pergunta">
+                  <div id="caixa-boneco-pergunta">
+                      <img class="boneco-pergunta" src="imagens/pag25/pessoa2.png" alt="">
+                 </div>
+                 <div id="caixa-balao-pergunta">
+                   <div id="balao-pergunta">
+                     <img src="imagens/pag25/balaoInvertido.png" alt="">
+                     <div class="texto-pergunta">
+                       <p>Agora, preenchendo a tabela com os valores, calcule o coeficiente de rateio utilizando o consumo de matéria prima.
+                      </p>
+                     </div>
+                   </div>
+                 
+                 </div>
+               
+               </div>
+              </div>
+              <div class="direita">
+                <table id="respostas2">
+                  <tr>
+                    <th>Procedimentos</th>
+                    <th>Base de Rateio</th>
+                    <th>Coeficiente de Rateio</th>
+                    <th>Custos Indiretos</th>
+                  </tr>
+                  <tr>
+                    <th>A</th>
+                    <td><input type="text" class="resposta2" /></td>
+                    <td><input type="text" class="resposta2" /></td>
+                    <td><input type="text" class="resposta2" /></td>
+                 
+                 
+                  </tr>
+                  <tr>
+                    <th>B</th>
+                    <td><input type="text" class="resposta2" /></td>
+                    <td><input type="text" class="resposta2" /></td>
+                    <td><input type="text" class="resposta2" /></td>
              
-   
+                 
+                  </tr>
+                  <tr>
+                    <th>C</th>
+                    <td><input type="text" class="resposta2" /></td>
+                    <td><input type="text" class="resposta2" /></td>
+                    <td><input type="text" class="resposta2" /></td>
+                   
+                
+                  </tr>
+                  <tr>
+                    <th>Total</th>
+                    <td><input type="text" class="resposta2"  /></td>
+                    <td><input type="text" class="resposta2" /></td>
+                    <td><input type="text" class="resposta2" /></td>
+                   
+               
+                  </tr>
+                </table>
+                <button onclick="verificarRespostas2()">Verificar</button>
+              </div>
+            
+             
+                  <label class="next-btn" for="c15">Próximo</label>
             </div>
           </div>
+
+
+          <div class="flip" id="p15">
+            <div class="front">
+              <label class="back-btn" for="c15">Voltar</label>
+              <div class="esquerda2">
+                <h1>Resposta - Tabela 1</h1>
+                <table></table>
+                <p><em>Custos Indiretos: Esses custos devem ser rateados e para isso deve ser definida uma base de rateio</em></p>
+                <p>A base de rateio é o fator que vai orientar a distribuição dos custos indiretos.</p>
+                <p>Deve-se escolher o dado que sirva melhor como base de rateio, obter o coeficiente de rateio,
+                   dividindo o total a ser rateado pelo total da base escolhida, e multiplicar este coeficiente a cada um dos 
+                   valores componentes do total da base.</p>
+                   <p><b>Calcular o coeficiente de rateio baseada na mão de obra utilizada:</b></p>
+                   <table></table>
+
+              </div>
+              <div class="direita2">
+                <h1>Resposta - Tabela 2</h1>
+                <p><em>Base de rateio: Definimos aqui a base de rateio seria a mão de obra utilizada. 
+                  Por isso os valores referentes à MOD foram transcritos.</em></p>
+
+                <p><em><b>O Coeficiente de rateio é a divisão do valor total de custos indiretos 
+                  pelo valor total da base de rateio</b></em></p>
+
+                <p>Calcular o coeficiente de rateio utilizando o consumo de matéria prima:</p>
+                <table></table>
+                <p><em>Base de Rateio: Utilizado o consumo de matéria prima como base de rateio</em></p>
+             
+               
+             
+            </div>
+          </div>
+  
   
         </div>
       </div>
