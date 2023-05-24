@@ -525,10 +525,11 @@ p em{
 h1{
 	font-size: 20px;
 }
-.direita2 p{
+.direita2 p, .esquerda2 p{
 	font-size: 16px;
 	padding-left: 1em;
 	padding-right: 1em;
+	text-align: justify;
 }
 
 
@@ -691,6 +692,7 @@ h1{
 	  button,
 	  p, 
 	  .direita2 p,
+	  .esquerda2 p,
 	  p em b,
 	  p b,
 	  p em,
