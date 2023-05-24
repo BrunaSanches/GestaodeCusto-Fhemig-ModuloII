@@ -422,10 +422,8 @@ table {
 	padding: 5px;
 	
   }
-  td {
-
+  td{
     border: 2px solid #0096Bb;
-	
   }
   .resposta{
     width:98%;
@@ -445,17 +443,12 @@ table {
 .diferente{
 	background-color: #1684a0;
 	color: white;
-	padding: 10px;
+	padding: 3px;
 	font-size: 15px;
 	
 }
-.diferente td{
-	padding:5px;
-	
-}
-.diferente td{
-	padding:5px;
-}
+
+
 
 button {
 	background-color: #0096bb;
@@ -651,7 +644,7 @@ h1{
 
 	  .diferente{
 		width: 25%;
-		height: 40vh;
+		height: 30vh;
 	  }
 	  table{
 		width: 25%;
@@ -661,7 +654,7 @@ h1{
 	  td,
 	  th
 		{
-		font-size: 6px;
+		font-size:5px;
 	  }
 	 
 	  .texto-pergunta p{
@@ -707,6 +700,7 @@ h1{
 	.back-btn {
 	font-size: 13px;
 }
+
   }
   /* Media queries for responsiveness */
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -803,7 +797,7 @@ h1{
   td,
   th
 	{
-	font-size: 12px;
+	font-size: 11px;
   }
  
   .texto-pergunta p{
@@ -834,6 +828,7 @@ h1{
   button,
   p, 
   .direita2 p,
+  .esquerda2 p,
   p em b,
   p b,
   p em,
@@ -848,4 +843,5 @@ h1{
 .back-btn {
 font-size: 13px;
 }
+
   }
