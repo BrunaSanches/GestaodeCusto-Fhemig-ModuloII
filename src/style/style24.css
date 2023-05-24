@@ -52,13 +52,14 @@
         opacity: 1;
      }
  }
-p{
+p, li, ol{
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
     color:white;
     padding-left:2em;
     padding-right:2em;
+    font-weight: 450;
 
  
  }
@@ -84,7 +85,7 @@ h1{
  /* RESPONSIVIDADE TELAS PEQUENAS */
 @media screen and (min-width: 768px) and (max-width: 1024px){
  
-    p{
+    p, li, ol{
         font-size: 15px;
      }
   
@@ -114,7 +115,7 @@ h1{
        width: 98%;
        height: 48vh;
      }
-    p{
+    p, li, ol{
        font-size:10px;
     }
    
