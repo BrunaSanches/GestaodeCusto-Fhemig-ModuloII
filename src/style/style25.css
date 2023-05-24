@@ -53,6 +53,11 @@
 	background-color: #fff;
 	box-sizing: border-box;
 	display: flex;
+	background-image: url('imagens/pag25/fundo.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
   }
   
 
@@ -335,7 +340,7 @@
 
 
   #balao-pergunta p, #balao p{
-	font-size: 15px;
+	font-size: 16px;
 	font-weight: bold;
   }
 
