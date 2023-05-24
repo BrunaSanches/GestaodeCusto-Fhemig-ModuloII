@@ -254,42 +254,23 @@
 }
 #balao{
 	position: relative;
-	width: 60%;
-	height:50%;
+	width:65%;
+	height:30vh;
 	display: flex;
-    justify-content:end;
+	text-align: center;
+	align-items: center;
+    justify-content:center;
 	animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: backwards;
 }
 #balao img{
 	position: absolute;
-	top: 0;
-	left: 0;
-	width: 250px;
-	height:250px;
+	width: 100%;
+	height:100%;
 	object-fit: cover;
 	display: block;
 }
-
-#balao .texto {
-	position: absolute;
-	width: 100%;
-	height:50%;
-	top: 35%;
-	left:60%;
-	transform: translate(-60%, -60%);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	
-	text-align: center;
-  }
-  .texto p{
-	font-size: 16px;
-	font-weight: bold;
-  }
-
 
 
 /* paginas com pergunta */
@@ -334,10 +315,12 @@
 }
 #balao-pergunta{
 	position: relative;
-	width:90%;
-	height:90%;
+	width: 60%;
+	height:30vh;
 	display: flex;
-    justify-content:start;
+	text-align: center;
+	align-items: center;
+    justify-content:center;
 	animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: backwards;
@@ -350,19 +333,8 @@
 	display: block;
 }
 
-#balao-pergunta .texto-pergunta{
-	position: absolute;
-	width: 70%;
-	height:40%;
-	margin-top: 35%;
-	margin-left:35%;
-	transform: translate(-50%, -50%);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-  }
-  .texto-pergunta p{
+
+  #balao-pergunta p, #balao p{
 	font-size: 15px;
 	font-weight: bold;
   }
@@ -447,8 +419,6 @@ table {
 	font-size: 15px;
 	
 }
-
-
 
 button {
 	background-color: #0096bb;
@@ -572,8 +542,6 @@ h1{
 		width: 100%;
 		height: 98vh;
 	  }
-
-
 	  #caixa-boneco,
 	  #caixa-balao {
 		width: 100%;
@@ -590,23 +558,17 @@ h1{
 		height: 40vh;
 	  }
 	  #balao-pergunta{
-		width: 100%;
-    	height:50vh;
+		width: 60%;
+    	height:30vh;
 	  }
 	  #balao-pergunta img{
 		width: 100%;
 		height: auto;
 	  }
-	  #balao-pergunta .texto-pergunta{
-		width: 80%;
-		height: 40%;
-		margin-top: 45%;
-		margin-left: 50%;
-	  }
 
 	.boneco{
 		width: 100%;
-		height: 80vh;
+		height: 70vh;
 	}
 	#caixa-boneco{
 		width: 50%;
@@ -618,28 +580,10 @@ h1{
 		height:70vh;
 	
 	} 
-	#balao{
-		width:55%;
-		height:40vh;
-	}
-
-	  .boneco {
-		width: 80%;
-		height: auto;
-	  }
-	
-	  #balao .texto {
-		width:100%;
-		height:100vh;
-		top: 48%;
-		left:68%;
-
-	  }
 	
 	  #balao img {
-		width: 130px;
-		height: 130px;
-		
+		width:100%;
+		height: auto;
 	  }
 
 	  .diferente{
@@ -657,10 +601,6 @@ h1{
 		font-size:5px;
 	  }
 	 
-	  .texto-pergunta p{
-		font-size:6px;
-	  }
-	
 	  .questao-esquerda,
 	  .questao-direita {
 		width: 50%;
@@ -688,8 +628,7 @@ h1{
 	  .esquerda2 p,
 	  p em b,
 	  p b,
-	  p em,
-	  .texto p{
+	  p em, #balao p, #balao-pergunta p{
 	
 		font-size: 10px;
 	  }
@@ -736,18 +675,12 @@ h1{
 	height: 40vh;
   }
   #balao-pergunta{
-	width: 100%;
-	height:50vh;
+	width: 80%;
+	height:40vh;
   }
   #balao-pergunta img{
 	width: 100%;
 	height: auto;
-  }
-  #balao-pergunta .texto-pergunta{
-	width: 80%;
-	height: 40%;
-	margin-top: 45%;
-	margin-left: 50%;
   }
 
 .boneco{
@@ -765,8 +698,8 @@ h1{
 
 } 
 #balao{
-	width:53%;
-	height:40vh;
+	width:50%;
+	height:25vh;
 }
 
   .boneco {
@@ -774,13 +707,7 @@ h1{
 
   }
 
-  #balao .texto {
-	width:100%;
-	height:100vh;
-	top: 48%;
-	left:58%;
-
-  }
+  
   #balao img{
 	width: 100%;
 	height: auto;
@@ -800,9 +727,6 @@ h1{
 	font-size: 11px;
   }
  
-  .texto-pergunta p{
-	font-size:12px;
-  }
 
   .questao-esquerda,
   .questao-direita {
@@ -831,8 +755,7 @@ h1{
   .esquerda2 p,
   p em b,
   p b,
-  p em,
-  .texto p{
+  p em,  #balao p, #balao-pergunta p{
 
 	font-size: 13px;
   }
