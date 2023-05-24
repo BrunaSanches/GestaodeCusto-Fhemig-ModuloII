@@ -1,25 +1,60 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-}
-#container{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-}
-#home{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:#0096bb;
+/* Default styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Container */
+  #container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+  }
+  
+  /* Home section */
+  #home {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #0096bb;
 	animation: fadeInAnimation ease 2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: backwards;
-}
+	animation-iteration-count: 1;
+	animation-fill-mode: backwards;
+  }
+  
+  /* Flip book */
+  .flip-book {
+	width: 100%;
+	height: 95vh;
+	position: relative;
+	perspective: 1500px;
+	border: 1px #0000;
+  }
+  
+  .flip {
+	width: 100%;
+	height: 95vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform-origin: left;
+  }
+  
+  .front {
+	position: absolute;
+	width: 100%;
+	height: 95vh;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	box-sizing: border-box;
+	display: flex;
+  }
+  
 
 /* LIVRO */
 
@@ -34,65 +69,28 @@
 	justify-content: center;
     align-items: center;
 }
-
-.flip-book{
-	
-	width: 100%;
-	height: 95vh;
-	position: relative;
-	perspective: 1500px;
-	border: 1px #0000;
-}
-.flip{
-
-	width: 100%;
-	height: 95vh;
-	position: absolute;
-	top: 0;
-	left: 0;
-	transform-origin: left;
-
+/* Next and back buttons */
+.next-btn,
+.back-btn {
+  position: absolute;
+  bottom: 13px;
+  cursor: pointer;
+  color: white;
+  background-color: #0096bb;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: bold;
 }
 
-.front{
-	position: absolute;
-	width: 100%;
-	height: 95vh;
-	top: 0;
-	left: 0;
-	background-color: #fff;
-	box-sizing: border-box;
-	
-	display: flex;
-	
-
+.next-btn {
+  right: 13px;
 }
 
-.next-btn{
-	position: absolute;
-	bottom: 13px;
-	right: 13px;
-	cursor: pointer;
-	cursor: pointer;
-	color: white;
-	background-color: #0096Bb;
-	border-radius: 5px;
-	padding: 5px;
-	font-size: 15px;
-	font-weight: bold;
+.back-btn {
+  left: 13px;
 }
-.back-btn{
-	position: absolute;
-	bottom: 13px;
-	left: 13px;
-	cursor: pointer;
-	color: white;
-	background-color: #0096Bb;
-	border-radius: 5px;
-	padding: 5px;
-	font-size: 15px;
-	font-weight: bold;
-}
+
 
 
 #p1{
@@ -421,6 +419,7 @@ table {
     text-align: center;
 	border: 2px solid #0096Bb;
 	border-radius: 5px;
+	padding: 5px;
 	
   }
   td {
@@ -457,14 +456,19 @@ table {
 .diferente td{
 	padding:5px;
 }
-  button{	
-	background-color: #51d1f1;
-	border-radius: 5px;
-	border-color: #0096Bb;
-	font-weight: bold;
-	padding: 5px;
 
-}
+button {
+	background-color: #0096bb;
+	border: none;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 5px;
+  }
 button:hover{
 	transform: translateX(7px) scale(1.2);
 }
@@ -526,3 +530,183 @@ h1{
 	padding-left: 1em;
 	padding-right: 1em;
 }
+
+
+  /* Pagination */
+  input[type="radio"]:checked ~ .flip-book .front {
+	z-index: 1;
+  }
+  input[type="radio"] ~ .flip-book .front {
+	position: absolute;
+	width: 100%;
+	height: 95vh;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	box-sizing: border-box;
+	display: flex;
+  }
+  
+  
+  /* Animation */
+  @keyframes fadeInAnimation {
+	0% {
+	  opacity: 0.2;
+	}
+	100% {
+	  opacity: 1;
+	}
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+	#container {
+		flex-direction: column;
+	  }
+	
+	  /* Flip book styles */
+	  .flip-book {
+		width: 100%;
+		height: 98vh;
+	  }
+	
+	  .front {
+		width: 100%;
+		height: 98vh;
+	  }
+	  .conversa{
+		width: 100%;
+		height: 98vh;
+	  }
+
+
+	  #caixa-boneco,
+	  #caixa-balao {
+		width: 100%;
+		height: auto;
+	
+	  }
+	   #caixa-balao-pergunta,
+	   #caixa-boneco-pergunta{
+		width: 100%;
+		height: 50vh;
+	  }
+	  #caixa-boneco-pergunta img{
+		width: 100%;
+		height: 40vh;
+	  }
+	  #balao-pergunta{
+		width: 100%;
+    	height:50vh;
+	  }
+	  #balao-pergunta img{
+		width: 100%;
+		height: auto;
+	  }
+	  #balao-pergunta .texto-pergunta{
+		width: 80%;
+		height: 40%;
+		margin-top: 45%;
+		margin-left: 50%;
+	  }
+
+	.boneco{
+		width: 100%;
+		height: 80vh;
+	}
+	#caixa-boneco{
+		width: 50%;
+		height: 95vh;
+
+	}
+	#caixa-balao{
+		width:55%;
+		height:70vh;
+	
+	} 
+	#balao{
+		width:55%;
+		height:40vh;
+	}
+
+	  .boneco {
+		width: 80%;
+		height: auto;
+	  }
+	
+	  #balao .texto {
+		width:100%;
+		height:100vh;
+		top: 48%;
+		left:68%;
+
+	  }
+	
+	  #balao img {
+		width: 130px;
+		height: 130px;
+		
+	  }
+
+
+
+
+
+	  .diferente{
+		width: 25%;
+		height: 40vh;
+	  }
+	  table{
+		width: 25%;
+		height: 40vh;
+	  }
+	  tr,
+	  td,
+	  th
+		{
+		font-size: 6px;
+	  }
+	 
+	  .texto-pergunta p{
+		font-size:6px;
+	  }
+	
+	  .questao-esquerda,
+	  .questao-direita {
+		width: 50%;
+		height: 98vh;
+	  }
+	
+	  .esquerda-abaixo,
+	  .direita-abaixo,
+	  .esquerda-acima,
+	  .direita-acima {
+		width:100%;
+		height:50vh;
+
+	  }
+	  .esquerda,
+	  .esquerda2,
+	  .direita,
+	  .direita2 {
+		width: 50%;
+		height: 98vh;
+	  }
+	  button,
+	  p, 
+	  .direita2 p,
+	  p em b,
+	  p b,
+	  p em,
+	  .texto p{
+	
+		font-size: 10px;
+	  }
+	  h1{
+		font-size: 13px;
+	  }
+	  .next-btn,
+	.back-btn {
+	font-size: 13px;
+}
+  }
