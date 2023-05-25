@@ -111,7 +111,7 @@
 				</item>
 
 				<item identifier="MOD_1_SCO_21" identifierref="RES_21" isvisible="true">
-					<title>Vídeo - Resumo Avasliação Econômica em Saúde</title>
+					<title>Vídeo - Resumo Avaliação Econômica em Saúde</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_20</adlcp:prerequisites>
 				</item>
 
