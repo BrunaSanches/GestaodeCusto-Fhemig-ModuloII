@@ -42,24 +42,6 @@ img{
 }
 
 
-@keyframes img {
-	0% { rotate: 0; }
-	50% { rotate: 10deg; }
-	100% { rotate: -10deg; }
-}
-img{
-	display: inline-block;
-    
-	text-decoration: none;
-	-webkit-animation: img .9s linear infinite;
-	-moz-animation: img  .9s linear infinite;
-	-ms-animation: img  .9s linear infinite;
-	-o-animation: img  .9s linear infinite;
-	animation: img .9s linear infinite;
-}
-img:hover{
-   transform: translateX(4px) scale(1.1);
-}
 @keyframes text-pisca {
 	0% { opacity: 0; }
 	50% { opacity: 0.5; }
@@ -79,21 +61,14 @@ img:hover{
 	animation: text-pisca .7s linear infinite;
 }
 p{
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
     color: white;
     padding-left:2em;
     padding-right: 2em;
 }
-h3{
-    font-size: 22px;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    color: white;
-    padding-left:2em;
-    padding-right: 2em;
-}
+
 #cor{
     width: 90%;
     height: 90vh;
