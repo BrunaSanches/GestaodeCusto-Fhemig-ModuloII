@@ -45,10 +45,9 @@
     background-color:#1684a0;
 }
 #esquerda img{
-    width:80%;
-    height: 70vh;
-    border-radius:10px;
-    border: 3px solid #1684a0;
+    width:100%;
+    height:100vh;
+  
   
 }
 h1{
@@ -69,6 +68,17 @@ p{
     padding-left:2em;
     padding-right:2em;
 }
+li{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    color: white;
+   
+}
+ol{
+    padding-left:2em;
+    padding-right:2em;
+}
 
 @keyframes fadeInAnimation {
     0% {
@@ -81,19 +91,13 @@ p{
  
 /* RESPONSIVIDADE TELAS PEQUENAS */
 @media screen and (min-width:768px) and (max-width:996px){
-    h1{
-        font-size: 18px;
-   }
+    
      
-    p{
-       font-size: 13px;
+    p, li{
+       font-size: 15px;
     }
   
-   #esquerda img{
-       width:80%;
-       height: 50vh;
-   }
-  
+   
 }
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
 @media screen and (max-width: 768px) {
@@ -110,15 +114,13 @@ p{
        height: 50vh;
    }
 
-   p{
+   p, li{
        font-size: 10px;
     }
-    h1{
-        font-size: 14px;
-   }
+    
    #esquerda img{
-       width:70%;
-       height: 35vh;
+       width:100%;
+       height: 50vh;
    }
    #cor{
     width: 95%;
