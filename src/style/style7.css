@@ -41,16 +41,8 @@
     height:100vh;
 }
 
-p{
-    font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
-    text-align: justify;
-    color: white;
-    padding-left:2em;
-    padding-right: 2em;
-}
 h1{
-    font-size: 25px;
+    font-size: 35px;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     text-align: center;
@@ -69,27 +61,12 @@ h1{
 /* RESPONSIVIDADE TELAS PEQUENAS */
 @media screen and (min-width: 768px) and (max-width:996px){
    
-    #esquerda{
-        width:50%;
-        height: 100vh;
-        
-    }
-    #direita{
-        width:50%;
-        height: 100vh;
-    }
-   
-    p{
-        font-size: 15px;
-    }
+ 
     h1{
-        font-size: 20px;
+        font-size: 25px;
     }
    
-    #direita img{
-        width:100%;
-        height: 100vh;
-    }
+   
 }
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
 @media screen and (min-width: 280px) and (max-width: 767px) {
@@ -105,11 +82,9 @@ h1{
         width: 100%;
         height: 50vh;
     }
-     p{
-        font-size: 10px;
-    }
+   
     h1{
-        font-size: 15px;
+        font-size: 20px;
     }
     #direita img{
         width: 100%;
