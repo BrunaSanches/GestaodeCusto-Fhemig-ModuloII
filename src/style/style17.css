@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
 }
 #home{
     width: 100%;
@@ -13,13 +12,15 @@
     width: 50%;
     height: 100vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
+    background-color:#0096bb;
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: backwards;
-    background-color:#0096bb;
+
+    
 }
 #direita{
     width: 50%;
@@ -30,33 +31,34 @@
     flex-direction: column;
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
-    background-image: linear-gradient(180deg,#0096bb,#51d1f1);
     animation-fill-mode: backwards;
    
 }
-h2{
-    font-size: 22px;
+#direita img{
+    width: 100%;
+    height: 100vh;
+  
+}
+h1{
+    text-transform: uppercase;
+    font-size: 52px;
     font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     color: white;
     font-weight: bold;
     padding:1em;
 }
-table{
-    background-color: #1684a0;
-    width: 95%;
-    height:50vh;
-    border: 1px solid #51d1f1;
-    border-collapse: collapse;
-}
-td{
-    border: 2px solid #51d1f1;
-    font-size: 14px;
+h2{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
-    color: white;
-    padding: 3px;
+    color: #0096bb;
+    font-weight: bold;
+    padding-left:2em;
+    padding-right: 2em;
 }
-
 @keyframes fadeInAnimation {
     0% {
         opacity: 0.2;
@@ -65,85 +67,31 @@ td{
         opacity: 1;
      }
  }
- img{
-    width: 100%;
-    height: 40vh;
-}
-
-
-@keyframes img {
-	0% { rotate: 0; }
-	50% { rotate: 10deg; }
-	100% { rotate: -10deg; }
-}
-img{
-	display: inline-block;
-    
-	text-decoration: none;
-	-webkit-animation: img .9s linear infinite;
-	-moz-animation: img  .9s linear infinite;
-	-ms-animation: img  .9s linear infinite;
-	-o-animation: img  .9s linear infinite;
-	animation: img .9s linear infinite;
-}
-img:hover{
-   transform: translateX(4px) scale(1.1);
-}
-@keyframes text-pisca {
-	0% { opacity: 0; }
-	50% { opacity: 0.5; }
-	100% { opacity: 1; }
-}
-.text-pisca {
-	color:rgb(138, 15, 128);
-	-webkit-text-stroke:1px rgb(138, 15, 128);
-	padding: 0.6em 0.8em;
-	display: inline-block;
-	text-decoration: none;
-	font-size: 22px;
-	-webkit-animation: text-pisca .7s linear infinite;
-	-moz-animation: text-pisca .7s linear infinite;
-	-ms-animation: text-pisca .7s linear infinite;
-	-o-animation: text-pisca .7s linear infinite;
-	animation: text-pisca .7s linear infinite;
-}
- p{
-    font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
-    text-align: justify;
-    color: white;
-    padding-left:1em;
-    padding-right:1em;
- 
- }
-
 /* RESPONSIVIDADE TELAS PEQUENAS */
-@media screen and (min-width: 768px) and (max-width:996px){
-    
-     h2{
-        font-size: 15px;
-     }
-     table{
-        width: 90%;
-        height: 30vh;
-     }
-     td{
-        font-size: 12px;
-     }
-    p {
-        font-size: 13px;
-     }
-     .text-pisca{
-        font-size: 15px;
-     }
-     img{
-        width: 100%;
-        height: 35vh;
+@media screen and (min-width: 600px) and (max-width: 1024px){
+   
+    #esquerda{
+        width: 50%;
+        height: 100vh;
+        
     }
+    #direita{
+        width:50%;
+        height: 100vh;
+    }
+  
+     h1{
+        font-size: 40px;
+     }
+     
+     #direita img{
     
+        width: 100%;
+        height: 100vh;
+    }
 }
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 280px) and (max-width: 590px) {
     #home{
         flex-direction: column;
     }
@@ -156,26 +104,13 @@ img:hover{
         width: 100%;
         height: 50vh;
     }
-     h2{
-        font-size:15px;
-     }
-     table{
-        width: 90%;
-        height: 30vh;
-     }
-     td{
-        font-size: 9px;
-     }
-     p {
-        font-size: 10px;
-     }
-     .text-pisca{
-        font-size: 15px;
+    h1{
+        font-size: 30px;
      }
     
-     img{
+     #direita img{
+    
         width: 100%;
-        height: 25vh;
+        height: 50vh;
     }
-    
 }

@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+#esquerda{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+ 
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+
+    
+}
+#direita{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    background-color: #51d1f1;
+}
+
+
+p,td{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    text-align:justify;
+    color: #404040;
+    padding-left:1.5em;
+    padding-right:1.5em;
+ 
+ }
+ #checkbox1:checked + #texto1 {
+    display: block;
+
+}
+#checkbox2:checked + #texto2 {
+    display: block;
+}
+#checkbox3:checked + #texto3 {
+    display: block;
+}
+#checkbox4:checked + #texto4 {
+    display: block;
+}
+
+
+#esquerda input{
+    display: none;
+}
+#esquerda input.check[type="checkbox"] {
+    display: none;
+  }
+.hover label {
+    cursor: pointer;
+
+  }
+ 
+  #esquerda  input.check[type="checkbox"]:checked + label {
+    background-color:#2F5597; 
+    border-color: #2F5597;
+  }
+  #esquerda #respostas{
+    width:90%;
+    height:30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+    background-color: #D9D9D9;
+}
+     #texto1,#texto2, #texto3,#texto4{
+        display: none;
+        color:#404040;
+    }
+  
+     #table1{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    
+
+    }
+    #linha{
+        width:90%;
+        height:20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+       
+     
+    }
+    
+    .hover{
+        width:80%;
+    }    
+    label{
+        width:70%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px;
+        border: 1px solid #2F5597;
+        background-color: #2F5597;
+        font-size: 17px;
+        font-weight: bold;
+        color: white;
+    
+     }
+     p b{
+        color:#AB0003;
+     }
+     label:hover{
+        background-color:#51d1f1;
+        border-color: #51d1f1;
+     }
+    .texto-resposta{
+        width: 95%;
+        height: auto;
+        display: flex;
+        align-items: center;   
+        text-align: center;
+        font-size: 15px;
+        color: #404040;
+        padding:1em;
+        
+        
+    }
+
+    #respostas p{
+        text-align: justify;
+        font-size: 15px;
+        color: #404040;  
+        
+    }
+   
+    #opcoes-acima{
+        width:90%;
+        height: 10vh;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    li{
+        text-align: justify;
+        font-size:20px;
+        color: #7F7F7F;
+        font-weight:400;
+    }
+    ul{
+        padding: 1em;
+    }
+  
+    button{
+        color:white;
+        background-color:#2F5597;
+        font-weight: bolder;
+        font-size:15px;
+        padding: 5px;
+        border-radius: 10px;
+        border: 2px solid #7F7F7F;
+    }
+    button:hover{
+        transform: translateX(7px) scale(1.2);
+    }
+    input{
+        width: 20%;
+        padding: 5px;
+        text-align: center;
+        font-size:16px;
+        border: 1px solid #7F7F7F;
+        background-color: #FFF0F5;
+        border-radius: 3px;
+    }
+    table{
+        width: 70%;
+        padding: 5px;
+    }
+    td{
+        padding: 10px;
+        font-weight: bold;
+    }
+    
+/* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width:768px) and (max-width:996px){
+   
+    p, td, #respostas p{
+        font-size: 15px;
+    }
+  
+  
+    #direita input, button{
+     font-size: 15px;
+    }
+    
+}
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (max-width: 768px) {
+   #home{
+       flex-direction: column;
+   }
+   #esquerda{
+       width: 100%;
+       height: 50vh;
+       
+   }
+   #direita{
+       width: 100%;
+       height: 50vh;
+   }
+ 
+   
+   p, td, #respostas p{
+       font-size: 10px;
+   }
+   #esquerda #respostas{
+    width: 90%;
+    height: 15vh;
+   }
+   #linha{
+    width: 90%;
+    height: 10vh;
+   }
+   #table1{
+    width: 90%;
+    height: 25vh;
+   }
+   label{
+    width: 90%;
+    height: 5vh;
+   }
+   #direita input, button{
+    font-size: 12px;
+   }
+}
