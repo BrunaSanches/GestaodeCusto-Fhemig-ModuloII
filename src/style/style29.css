@@ -12,19 +12,15 @@
     width: 50%;
     height: 100vh;
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
     flex-direction: column;
     align-items: center;
- 
+    background-color:#0096bb;
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: backwards;
 
     
-}
-iframe{
-    width: 100%;
-    height: 100%;
 }
 #direita{
     width: 50%;
@@ -36,30 +32,22 @@ iframe{
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: backwards;
-  
+    background-image: linear-gradient(180deg,#0096bb, #51d1f1);
+
 }
 
-
-img{
+#direita img{
     width: 100%;
-    height: 100vh;
-}
-h2{
-    font-size: 25px;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    color:#2F5597;
-    padding-left:2em;
-    padding-right: 2em;
+    height:100vh;
 }
 
 p{
-    font-size: 17px;
+    font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
-    color: black;
-    padding-left:2em;
-    padding-right: 2em;
+    color: white;
+    padding-left:1.5em;
+    padding-right:1.5em;
 }
 
 @keyframes fadeInAnimation {
@@ -71,26 +59,17 @@ p{
      }
  }
 /* RESPONSIVIDADE TELAS PEQUENAS */
-@media screen and (min-width:768px) and (max-width:1024px){
+@media screen and (min-width: 768px) and (max-width:996px){
    
-    h2{
-        font-size: 20px;
-    }
+ 
     p{
-        font-size: 15px;
+        font-size: 14px;
     }
    
-    img{
-        width: 100%;
-        height: 100vh;
-    }
-    .text-pisca{
-        font-size: 20px;
-    }
    
 }
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 280px) and (max-width: 767px) {
     #home{
         flex-direction: column;
     }
@@ -103,19 +82,12 @@ p{
         width: 100%;
         height: 50vh;
     }
-    
-     p{
+   
+    p{
         font-size: 10px;
     }
-    h2{
-        font-size: 15px;
-    }
-    
-    img{
+    #direita img{
         width: 100%;
-        height: 50vh;
-    }
-    .text-pisca{
-        font-size: 15px;
+        height:50vh;
     }
 }

@@ -60,6 +60,10 @@
     display: flex;
     justify-content:space-evenly;
 }
+iframe{
+    width: 100%;
+    height: 100%;
+}
 .quadrado
 {
     width:30%;
