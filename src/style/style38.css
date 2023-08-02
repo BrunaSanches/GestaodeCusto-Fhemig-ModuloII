@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+#esquerda{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fffffb;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+
+    
+}
+#direita{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    background-color: #51d1f1;
+}
+
+
+#importante img{
+    width:30%;
+    height:18vh;
+  }
+  #importante{
+    width:85%;
+    height:25vh;
+    background-color: white;
+    border:2px solid #2F5597;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #direita img{
+    width: 100%;
+    height: 100vh;
+  }
+  #importante p{
+   
+    color: #2F5597;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    padding:10px;
+    text-align: right;
+  }
+  #direita p b{
+    color: #2F5597;
+  }
+p{
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    color: black;
+    padding-left:2em;
+    padding-right: 2em;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+     }
+ }
+/* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width:768px) and (max-width:1024px){
+   
+    h2{
+        font-size:14px;
+    }
+    p{
+        font-size: 15px;
+    }
+   
+    img{
+        width: 60%;
+        height: 40vh;
+     
+    }
+    
+}
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (max-width: 768px) {
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 60vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 40vh;
+    }
+    #direita img{
+        width: 100%;
+        height: 40vh;
+        
+    }
+    
+    p{
+        font-size: 9px;
+    }
+
+    #importante p{
+        font-size: 8px; 
+    }
+    
+    #importante img{
+        width:20%;
+        height:8vh;
+     
+    }#importante{
+        width:95%;
+        height:12vh;
+    }
+}

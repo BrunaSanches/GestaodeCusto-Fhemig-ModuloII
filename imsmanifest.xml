@@ -41,22 +41,22 @@
 				</item>
 
 				<item identifier="MOD_1_SCO_7" identifierref="RES_7" isvisible="true">
-					<title>2.1 - Custeio ABC</title>
+					<title>2.1 - Sistema de Custeio ABC ou Custeio Baseado em Atividades</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_6</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_8" identifierref="RES_8" isvisible="true">
-					<title>Exemplo prático sobre Custeio ABC</title>
+					<title>Custeio ABC - Fundamento</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_7</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_9" identifierref="RES_9" isvisible="true">
-					<title>Exercício - Custeio Absorção</title>
+					<title>A implantação do Custeio ABC </title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_8</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_10" identifierref="RES_10" isvisible="true">
-					<title>A Importância Custeio por Absorção</title>
+					<title>2.2 – Micro custeio - Estratégia e Implantação de um sistema de custos em organizações complexas – Hopitais (FHEMIG)</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_9</adlcp:prerequisites>
 				</item>	
 
@@ -71,7 +71,7 @@
 				</item>
 			
 				<item identifier="MOD_1_SCO_13" identifierref="RES_13" isvisible="true">
-					<title>2.2 – Micro Custeio</title>
+					<title>Você sabe  o que é o micro custeio?</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_12</adlcp:prerequisites>
 				</item>
 
@@ -81,145 +81,207 @@
 				</item>
 
 				<item identifier="MOD_1_SCO_15" identifierref="RES_15" isvisible="true">
-					<title>2.3 – Estudos de Custos</title>
+					<title>Implantação da gestão de custos </title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_14</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_16" identifierref="RES_16" isvisible="true">
-					<title>Texto - Estudo de Custos</title>
+					<title>Você sabe como a definição de Ações Estratégicas? </title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_15</adlcp:prerequisites>
 				</item>	
 
 				<item identifier="MOD_1_SCO_17" identifierref="RES_17" isvisible="true">
-					<title>Vídeo - Avaliação de tecnologias em saúde</title>
+					<title>Alinhamento à Estratégia da Organização Hospitalar (FHEMIG)</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_16</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_18" identifierref="RES_18" isvisible="true">
-					<title>Vídeo - Resumo Avaliação de tecnologias em saúde</title>
+					<title>2.3 – Estudos de custos </title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_17</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_19" identifierref="RES_19" isvisible="true">
-					<title>2.4 – Avaliação de tecnologias em saúde</title>
+					<title>Bases para a inovação</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_18</adlcp:prerequisites>
 				</item>	
 
 				<item identifier="MOD_1_SCO_20" identifierref="RES_20" isvisible="true">
-					<title>Vídeo - Avaliação Econômica em Saúde</title>
+					<title>Aula - Estudo de Custos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_19</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_21" identifierref="RES_21" isvisible="true">
-					<title>Vídeo - Resumo Avaliação Econômica em Saúde</title>
+					<title>2.4 – Avaliação de tecnologias em saúde </title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_20</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_22" identifierref="RES_22" isvisible="true">
-					<title>2.5 – Avaliação Econômica em Saúde</title>
+					<title>Vídeo - Avaliação de Tecnologias em Saúde</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_21</adlcp:prerequisites>
 				</item>	
 	
 				<item identifier="MOD_1_SCO_23" identifierref="RES_23" isvisible="true">
-					<title>A análise da eficiência de Tecnologias</title>
+					<title>Resumo - Avaliação de Tecnologias em Saúde</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_22</adlcp:prerequisites>
 				</item>	
 
 				<item identifier="MOD_1_SCO_24" identifierref="RES_24" isvisible="true">
-					<title>Complementar - O que é custo efetividade e como calculá-lo?</title>
+					<title>Principais tipos de estudos usados em ATS </title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_23</adlcp:prerequisites>
 				</item>	
 
 				<item identifier="MOD_1_SCO_25" identifierref="RES_25" isvisible="true">
-					<title>A Importância do Custo Efetividade</title>
+					<title>Implantação de um sistema de custos </title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_24</adlcp:prerequisites>
 				</item>	
 
 				<item identifier="MOD_1_SCO_26" identifierref="RES_26" isvisible="true">
-					<title>Vídeo - Análise custo-benefício</title>
+					<title>Ações Táticas </title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_25</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_27" identifierref="RES_27" isvisible="true">
-					<title>Vídeo - Resumo Análise custo-benefício</title>
+					<title>Ações Operacionais</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_26</adlcp:prerequisites>
 				</item>
 
 	            <item identifier="MOD_1_SCO_28" identifierref="RES_28" isvisible="true">
-					<title>2.6 – Análise custo-benefício</title>
+					<title>Caça-Palavras - Estudos usados em ATS</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_27</adlcp:prerequisites>
 				</item>
 				
 	            <item identifier="MOD_1_SCO_29" identifierref="RES_29" isvisible="true">
-					<title>Continuação – Análise custo-benefício</title>
+					<title>2.5 –Avaliação econômica em saúde -  Implantação de Custeio por Absorção – Método em organização Pública de Saúde</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_28</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_30" identifierref="RES_30" isvisible="true">
-					<title>Vídeo - Análise Custo de Oportunidade</title>
+					<title>Vídeo - Avaliação econômica em saúde</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_29</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_31" identifierref="RES_31" isvisible="true">
-					<title>Vídeo - Resumo Análise Custo de Oportunidade</title>
+					<title>Vídeo - Resumo Avaliação econômica em saúde</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_30</adlcp:prerequisites>
 				</item>
 				
 	            <item identifier="MOD_1_SCO_32" identifierref="RES_32" isvisible="true">
-					<title>2.7 – Análise Custo de Oportunidade</title>
+					<title>Implantação do Sistema de Custeio</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_31</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_33" identifierref="RES_33" isvisible="true">
-					<title>Vídeo - Análise Gerencial das informações</title>
+					<title>A implantação de um sistema de gestão de custos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_32</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_34" identifierref="RES_34" isvisible="true">
-					<title>Vídeo - Resumo Análise Gerencial das informações</title>
+					<title>Passos e Ações para a Implantação</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_33</adlcp:prerequisites>
 				</item>
 
 				 <item identifier="MOD_1_SCO_35" identifierref="RES_35" isvisible="true">
-					<title>2.8 – Análise Gerencial das informações</title>
+					<title>Aula - Avaliação econômica em saúde</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_34</adlcp:prerequisites>
 				</item>
 				
 	            <item identifier="MOD_1_SCO_36" identifierref="RES_36" isvisible="true">
-					<title>O que possibilita as Análises Gerenciais?</title>
+					<title>2.6 – Analise de custo –benefício - Implantação do Sistema Custos ABC em Uma Unidade de Saúde Pública de Alta Complexidade (FHEMIG) </title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_35</adlcp:prerequisites>
 				</item>
 
 	 			<item identifier="MOD_1_SCO_37" identifierref="RES_37" isvisible="true">
-					<title>Explicação - O que possibilita as Análises Gerenciais?</title>
+					<title>Vídeo - Analise de custo –benefício</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_36</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_38" identifierref="RES_38" isvisible="true">
-					<title>2.9 – Oficina Estudo de Casos</title>
+					<title>Resumo - Analise de custo –benefício</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_37</adlcp:prerequisites>
 				</item>
 				
 	            <item identifier="MOD_1_SCO_39" identifierref="RES_39" isvisible="true">
-					<title>Vídeo - Oficina de Estudo de Casos</title>
+					<title>Você sabe de onde vem o sistema de custeio baseado em atividades ABC? </title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_38</adlcp:prerequisites>
 				</item>
-				<!-- pagina oficina -->
+
  				<item identifier="MOD_1_SCO_40" identifierref="RES_40" isvisible="true">
-					<title>Oficina - História</title>
+					<title>Mapeamento dos Processos </title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_39</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_41" identifierref="RES_41" isvisible="true">
-					<title>Vídeo - Finalizando o Módulo</title>
+					<title>2.7 – Analise Gerencial das informações e custo oportunidade</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_40</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_42" identifierref="RES_42" isvisible="true">
-					<title>Fim</title>
+					<title>Vídeo - Análise de Custo e Oportunidade</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_41</adlcp:prerequisites>
 				</item>
 				
+					<item identifier="MOD_1_SCO_43" identifierref="RES_43" isvisible="true">
+					<title>Resumo - Análise de Custo e Oportunidade</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_42</adlcp:prerequisites>
+				</item>
+
+					<item identifier="MOD_1_SCO_44" identifierref="RES_44" isvisible="true">
+					<title>Vídeo - Análise de Gerencial das informações</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_43</adlcp:prerequisites>
+				</item>
+
+					<item identifier="MOD_1_SCO_45" identifierref="RES_45" isvisible="true">
+					<title>Resumo - Análise de Gerencial das informações</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_44</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_46" identifierref="RES_46" isvisible="true">
+					<title>Atividade - Análise de Gerencial das informações</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_45</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_47" identifierref="RES_47" isvisible="true">
+					<title>Você sabe o que é a metainformação de custos?</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_46</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_48" identifierref="RES_48" isvisible="true">
+					<title>Acessoria - Gestão hospitalar </title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_47</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_49" identifierref="RES_49" isvisible="true">
+					<title>Aula - Analise gerencial das informações</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_48</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_50" identifierref="RES_50" isvisible="true">
+					<title>2.8 – Oficina Estudo de Casos</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_49</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_51" identifierref="RES_51" isvisible="true">
+					<title>Vídeo - 2.8 – Oficina Estudo de Casos</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_50</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_52" identifierref="RES_52" isvisible="true">
+					<title>Oficina</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_51</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_53" identifierref="RES_53" isvisible="true">
+					<title>Vídeo - Finalizando o Módulo</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_52</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_54" identifierref="RES_54" isvisible="true">
+					<title>Fim do Módulo</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_53</adlcp:prerequisites>
+				</item>
+
+
+
 
 
 		</item>
