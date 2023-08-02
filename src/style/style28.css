@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+#esquerda{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(180deg,#0096bb, #2F5597);
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+
+    
+}
+#direita{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    background-image: linear-gradient(180deg,#0096bb, #2F5597);
+
+}
+
+
+
+#esquerda p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    color: white;
+    padding-right:1.5em;
+    padding-left: 1.5em;
+ 
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+     }
+ }
+ 
+  #switch1, #switch2,#switch3,#switch4,#switch5,#switch6{
+    display: none;
+  }
+  
+  #switch1:checked ~ .flip-container .flipper {
+    transform: rotateY(180deg);
+  }
+  #switch2:checked ~ .flip-container .flipper {
+    transform: rotateY(180deg);
+  }
+  #switch3:checked ~ .flip-container .flipper {
+    transform: rotateY(180deg);
+  }
+  #switch4:checked ~ .flip-container .flipper {
+    transform: rotateY(180deg);
+  }
+  #switch5:checked ~ .flip-container .flipper {
+    transform: rotateY(180deg);
+  }
+  #switch6:checked ~ .flip-container .flipper {
+    transform: rotateY(180deg);
+  }
+
+  img{
+    width:80%;
+    height:30vh;
+  }
+  .flip-container {
+    display: inline-block;
+    width:100%;
+    height: 30vh;
+    perspective: 1000px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .flipper {
+    position: relative;
+    width:100%;
+    height: 30vh;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+  
+
+  
+  .front, .back {
+    position: absolute;
+    width:100%;
+    height: 30vh;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .back {
+    transform: rotateY(180deg);
+    width:80%;
+    height:30vh;
+    background-color: #2F5597;
+    border: 2px solid #0096bb;
+  }
+.cards{
+    width:90%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.card{
+    width: 50%;
+    height:30vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.back p{
+    font-size: 14px;
+    text-align:center ;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding:5px;
+}
+
+
+
+/* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width: 768px) and (max-width:996px){
+   
+ 
+   #esquerda p{
+        font-size: 14px;
+    }
+    .back p{
+        font-size: 12px;
+    }
+   
+}
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (min-width: 280px) and (max-width: 767px) {
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 40vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 60vh;
+    }
+    .cards, .card,   .front, .back, .flip-container, .flipper{
+        width:100%;
+        height:20vh;
+    }
+    img, .back{
+        width:80%;
+        height:16vh;
+      }
+    
+ 
+    #esquerda p{
+        font-size: 10px;
+    }
+    .back p{
+        font-size: 10px;
+    }
+   
+}
