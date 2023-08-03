@@ -371,145 +371,208 @@
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_15" type="webcontent" adlcp:scormtype="sco" href="src/pagina10.html">
-		   <file href="src/pagina10.html"/>
+		<resource identifier="RES_15" type="webcontent" adlcp:scormtype="sco" href="src/pagina10a14.html">
+		   <file href="src/pagina10a14.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_16" type="webcontent" adlcp:scormtype="sco" href="src/pagina11.html">
-		   <file href="src/pagina11.html"/>
-		   <dependency identifierref="INC"/>
-		</resource>
-
-		<resource identifier="RES_17" type="webcontent" adlcp:scormtype="sco" href="src/video33.html">
-		   <file href="src/video33.html"/>
-		   <dependency identifierref="INC"/>
-		</resource>
-
-		<resource identifier="RES_18" type="webcontent" adlcp:scormtype="sco" href="src/video34.html">
-		   <file href="src/video34.html"/>
-		   <dependency identifierref="INC"/>
-		</resource>
-
-		<resource identifier="RES_19" type="webcontent" adlcp:scormtype="sco" href="src/pagina12.html">
-		   <file href="src/pagina12.html"/>
-		   <dependency identifierref="INC"/>
-		</resource>
-			
-		<resource identifier="RES_20" type="webcontent" adlcp:scormtype="sco" href="src/video35.html">
-		   <file href="src/video35.html"/>
-		   <dependency identifierref="INC"/>
-		</resource>
-
-		<resource identifier="RES_21" type="webcontent" adlcp:scormtype="sco" href="src/video36.html">
-		   <file href="src/video36.html"/>
-		   <dependency identifierref="INC"/>
-		</resource>
-
-		<resource identifier="RES_22" type="webcontent" adlcp:scormtype="sco" href="src/pagina13.html">
-		   <file href="src/pagina13.html"/>
-		   <dependency identifierref="INC"/>
-		</resource>
-
-		<resource identifier="RES_23" type="webcontent" adlcp:scormtype="sco" href="src/pagina14.html">
-		   <file href="src/pagina14.html"/>
-		   <dependency identifierref="INC"/>
-		</resource>
-
-		<resource identifier="RES_24" type="webcontent" adlcp:scormtype="sco" href="src/pagina15.html">
+		<resource identifier="RES_16" type="webcontent" adlcp:scormtype="sco" href="src/pagina15.html">
 		   <file href="src/pagina15.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-        <resource identifier="RES_25" type="webcontent" adlcp:scormtype="sco" href="src/pagina17.html">
+		<resource identifier="RES_17" type="webcontent" adlcp:scormtype="sco" href="src/pagina16.html">
+		   <file href="src/pagina16.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_18" type="webcontent" adlcp:scormtype="sco" href="src/pagina17.html">
 		   <file href="src/pagina17.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
-        
-        <resource identifier="RES_26" type="webcontent" adlcp:scormtype="sco" href="src/video37.html">
-		   <file href="src/video37.html"/>
-		   <dependency identifierref="INC"/>
-		</resource>
 
-		<resource identifier="RES_27" type="webcontent" adlcp:scormtype="sco" href="src/video38.html">
-		   <file href="src/video38.html"/>
-		   <dependency identifierref="INC"/>
-		</resource>
-
-		<resource identifier="RES_28" type="webcontent" adlcp:scormtype="sco" href="src/pagina18.html">
+		<resource identifier="RES_19" type="webcontent" adlcp:scormtype="sco" href="src/pagina18.html">
 		   <file href="src/pagina18.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
-
-		 <resource identifier="RES_29" type="webcontent" adlcp:scormtype="sco" href="src/pagina19.html">
+			
+		<resource identifier="RES_20" type="webcontent" adlcp:scormtype="sco" href="src/pagina19.html">
 		   <file href="src/pagina19.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		 <resource identifier="RES_30" type="webcontent" adlcp:scormtype="sco" href="src/video39.html">
-		   <file href="src/video39.html"/>
-		   <dependency identifierref="INC"/>
-		</resource>
-
-		<resource identifier="RES_31" type="webcontent" adlcp:scormtype="sco" href="src/video40.html">
-		   <file href="src/video40.html"/>
-		   <dependency identifierref="INC"/>
-		</resource>
-
-		<resource identifier="RES_32" type="webcontent" adlcp:scormtype="sco" href="src/pagina20.html">
+		<resource identifier="RES_21" type="webcontent" adlcp:scormtype="sco" href="src/pagina20.html">
 		   <file href="src/pagina20.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		 <resource identifier="RES_33" type="webcontent" adlcp:scormtype="sco" href="src/video41.html">
-		   <file href="src/video41.html"/>
+		<resource identifier="RES_22" type="webcontent" adlcp:scormtype="sco" href="src/video33.html">
+		   <file href="src/video33.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_34" type="webcontent" adlcp:scormtype="sco" href="src/video42.html">
-		   <file href="src/video42.html"/>
+		<resource identifier="RES_23" type="webcontent" adlcp:scormtype="sco" href="src/video34.html">
+		   <file href="src/video34.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_35" type="webcontent" adlcp:scormtype="sco" href="src/pagina21.html">
+		<resource identifier="RES_24" type="webcontent" adlcp:scormtype="sco" href="src/pagina21.html">
 		   <file href="src/pagina21.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		 <resource identifier="RES_36" type="webcontent" adlcp:scormtype="sco" href="src/pagina22.html">
+        <resource identifier="RES_25" type="webcontent" adlcp:scormtype="sco" href="src/pagina22.html">
 		   <file href="src/pagina22.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
-
-		 <resource identifier="RES_37" type="webcontent" adlcp:scormtype="sco" href="src/pagina23.html">
+        
+        <resource identifier="RES_26" type="webcontent" adlcp:scormtype="sco" href="src/pagina23.html">
 		   <file href="src/pagina23.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_38" type="webcontent" adlcp:scormtype="sco" href="src/pagina24.html">
+		<resource identifier="RES_27" type="webcontent" adlcp:scormtype="sco" href="src/pagina24.html">
 		   <file href="src/pagina24.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		 <resource identifier="RES_39" type="webcontent" adlcp:scormtype="sco" href="src/video43.html">
-		   <file href="src/video43.html"/>
-		   <dependency identifierref="INC"/>
-		</resource>
-
-		<resource identifier="RES_40" type="webcontent" adlcp:scormtype="sco" href="src/pagina25.html">
+		<resource identifier="RES_28" type="webcontent" adlcp:scormtype="sco" href="src/pagina25.html">
 		   <file href="src/pagina25.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_41" type="webcontent" adlcp:scormtype="sco" href="src/video44.html">
+		 <resource identifier="RES_29" type="webcontent" adlcp:scormtype="sco" href="src/pagina26.html">
+		   <file href="src/pagina26.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		 <resource identifier="RES_30" type="webcontent" adlcp:scormtype="sco" href="src/video35.html">
+		   <file href="src/video35.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_31" type="webcontent" adlcp:scormtype="sco" href="src/video36.html">
+		   <file href="src/video36.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_32" type="webcontent" adlcp:scormtype="sco" href="src/pagina27.html">
+		   <file href="src/pagina27.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		 <resource identifier="RES_33" type="webcontent" adlcp:scormtype="sco" href="src/pagina28.html">
+		   <file href="src/pagina28.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_34" type="webcontent" adlcp:scormtype="sco" href="src/pagina29.html">
+		   <file href="src/pagina29.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_35" type="webcontent" adlcp:scormtype="sco" href="src/pagina30.html">
+		   <file href="src/pagina30.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		 <resource identifier="RES_36" type="webcontent" adlcp:scormtype="sco" href="src/pagina31.html">
+		   <file href="src/pagina31.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		 <resource identifier="RES_37" type="webcontent" adlcp:scormtype="sco" href="src/video37.html">
+		   <file href="src/video37.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_38" type="webcontent" adlcp:scormtype="sco" href="src/video38.html">
+		   <file href="src/video38.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		 <resource identifier="RES_39" type="webcontent" adlcp:scormtype="sco" href="src/pagina32.html">
+		   <file href="src/pagina32.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_40" type="webcontent" adlcp:scormtype="sco" href="src/pagina33.html">
+		   <file href="src/pagina33.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_41" type="webcontent" adlcp:scormtype="sco" href="src/pagina34.html">
+		   <file href="src/pagina34.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+        <resource identifier="RES_42" type="webcontent" adlcp:scormtype="sco" href="src/video39.html">
+		   <file href="src/video39.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_43" type="webcontent" adlcp:scormtype="sco" href="src/video40.html">
+		   <file href="src/video40.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_44" type="webcontent" adlcp:scormtype="sco" href="src/video41.html">
+		   <file href="src/video41.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_45" type="webcontent" adlcp:scormtype="sco" href="src/video42.html">
+		   <file href="src/video42.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_46" type="webcontent" adlcp:scormtype="sco" href="src/pagina35e36.html">
+		   <file href="src/pagina35e36.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_47" type="webcontent" adlcp:scormtype="sco" href="src/pagina37.html">
+		   <file href="src/pagina37.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_48" type="webcontent" adlcp:scormtype="sco" href="src/pagina38.html">
+		   <file href="src/pagina38.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_49" type="webcontent" adlcp:scormtype="sco" href="src/pagina39.html">
+		   <file href="src/pagina39.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_50" type="webcontent" adlcp:scormtype="sco" href="src/pagina40.html">
+		   <file href="src/pagina40.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_51" type="webcontent" adlcp:scormtype="sco" href="src/video43.html">
+		   <file href="src/video43.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_52" type="webcontent" adlcp:scormtype="sco" href="src/pagina41.html">
+		   <file href="src/pagina41.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_53" type="webcontent" adlcp:scormtype="sco" href="src/video44.html">
 		   <file href="src/video44.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-        <resource identifier="RES_42" type="webcontent" adlcp:scormtype="sco" href="src/paginaFim.html">
+		<resource identifier="RES_54" type="webcontent" adlcp:scormtype="sco" href="src/paginaFim.html">
 		   <file href="src/paginaFim.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
+
+
+
 
 
 
