@@ -91,10 +91,18 @@ p{
 /* RESPONSIVIDADE TELAS PEQUENAS */
 @media screen and (min-width:768px) and (max-width:996px){
    
-     p, .caixinhas{
+     p{
         font-size: 14px;
      }
+     .caixinha{
+        font-size: 13px;
+     }
    
+     #direita img{
+    
+        width: 90%;
+        height: 70vh;
+    }
 }
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
 @media screen and (max-width: 768px) {

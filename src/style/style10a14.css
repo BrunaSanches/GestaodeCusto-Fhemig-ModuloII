@@ -137,7 +137,7 @@ p,td{
         border-color: #51d1f1;
      }
     .texto-resposta{
-        width: 95%;
+        width: 100%;
         height: auto;
         display: flex;
         align-items: center;   
@@ -207,7 +207,7 @@ p,td{
 @media screen and (min-width:768px) and (max-width:996px){
    
     p, td, #respostas p{
-        font-size: 15px;
+        font-size: 13px;
     }
   
   
