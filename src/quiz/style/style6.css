@@ -63,7 +63,8 @@
        
      
  }
- #vermelho{
+ 
+ #colorido{
     background-color:  #C00000;
     color: white;
     font-size: 16px;
@@ -79,7 +80,7 @@
     flex-direction: column;
 }
 .questao label{
-    width:80%;
+    width:90%;
     display: flex;
     justify-content:flex-start;
     align-items: flex-start;

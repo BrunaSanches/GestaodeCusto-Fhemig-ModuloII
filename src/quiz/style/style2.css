@@ -81,7 +81,7 @@
 .questao label{
     width:60%;
     display: flex;
-    justify-content:center;
+    justify-content:flex-start;
     align-items: flex-start;
     color: #404040;
     font-weight: bold;

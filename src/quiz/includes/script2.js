@@ -25,22 +25,23 @@ document.getElementById("reiniciar").addEventListener("click", function() {
 
       
       }else if(checkboxes[1].checked){
-        document.getElementById("correta1").style.color="green";
-        div1.style.display = "block";
-        div2.style.display = "none";
-      
-      }
-      else if(checkboxes[2].checked){
-       
         document.getElementById("incorreta2").style.color="red";
         div2.style.display = "block";
         div1.style.display = "none";
       
       }
-      else if(checkboxes[3].checked){
+      else if(checkboxes[2].checked){
+       
         document.getElementById("incorreta3").style.color="red";
         div2.style.display = "block";
         div1.style.display = "none";
+      
+      }
+      else if(checkboxes[3].checked){
+        document.getElementById("correta1").style.color="green";
+        div1.style.display = "block";
+        div2.style.display = "none";
+       
       }
    
      
