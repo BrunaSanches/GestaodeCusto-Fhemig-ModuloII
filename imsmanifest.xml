@@ -276,8 +276,13 @@
 				</item>
 
 				<item identifier="MOD_1_SCO_54" identifierref="RES_54" isvisible="true">
-					<title>Fim do Módulo</title>
+					<title>Quiz</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_53</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_55" identifierref="RES_55" isvisible="true">
+					<title>Fim do Módulo</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_54</adlcp:prerequisites>
 				</item>
 
 
@@ -566,7 +571,12 @@
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_54" type="webcontent" adlcp:scormtype="sco" href="src/paginaFim.html">
+		<resource identifier="RES_54" type="webcontent" adlcp:scormtype="sco" href="src/quiz/pagina1.html">
+		   <file href="src/quiz/pagina1.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_55" type="webcontent" adlcp:scormtype="sco" href="src/paginaFim.html">
 		   <file href="src/paginaFim.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
