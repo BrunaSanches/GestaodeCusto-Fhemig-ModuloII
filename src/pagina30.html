@@ -7,12 +7,33 @@
     <meta http-equiv="x-ua-compatible" content="IE=10">
     <meta name="keywords" content="moodle, " />
     <link rel="stylesheet" href="style/styleVideos.css">
+    <style>
+        #grande{
+      width:100%;
+      height:30vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+  
+  }
+  #grande p{
+      font-size: 20px;
+      color: black;
+      text-align: center;
+  }
+      </style>
     <title>Vídeo - Avaliação de Tecnologias da Saúde</title>
 </head>
 <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="fc_iniciaSCO();" onUnload="unloadPage();doLMSSetValue('cmi.core.lesson_status',value);">
     <div id="home">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/XGkzcy_aEmE?si=eaY6VGUHVQaV6W7d?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>        </div>
-    <script type="text/javascript" src="includes/conteudo.js"></script>
+        <div id="grande">
+            <p>Vamos agora assistir a uma videoaula interativa sobre a Avaliação Econômica em saúde!</p>
+
+        </div>
+        <iframe src="AULA-MOD2/VIDEO7.html" frameborder="0"></iframe>
+    </div>
+        <script type="text/javascript" src="includes/conteudo.js"></script>
     <script type="text/javascript" src="includes/apiwrapper.js"></script>
     <script type="text/javascript" src="includes/scofunctions.js"></script> 
 </body>

@@ -15,7 +15,7 @@
     justify-content:space-evenly;
     flex-direction: column;
     align-items: center;
- 
+    background-color: #51d1f1;
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: backwards;
@@ -38,7 +38,20 @@ iframe{
     animation-fill-mode: backwards;
   
 }
+#grande{
+    width:100%;
+    height:30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 
+}
+#grande p{
+    font-size: 22px;
+    color: black;
+    text-align: center;
+}
 
 img{
     width: 100%;
@@ -87,6 +100,10 @@ p{
     .text-pisca{
         font-size: 20px;
     }
+    
+    #grande p{
+        font-size:18px;
+    }
    
 }
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
@@ -118,4 +135,16 @@ p{
     .text-pisca{
         font-size: 15px;
     }
+    #grande p{
+        font-size:12px;
+    }
+    #grande{
+        width: 100%;
+        height:10vh;
+    }
+    iframe{
+        width: 100%;
+        height:40vh;
+    }
+
 }
