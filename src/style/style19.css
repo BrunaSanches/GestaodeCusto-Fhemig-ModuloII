@@ -51,6 +51,9 @@ iframe{
     font-size: 22px;
     color: black;
     text-align: center;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 img{
